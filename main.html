@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>SFCLT App</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.3.15/slick.css" />
+    <style>
+      html{
+        overflow-x: hidden;
+        overflow-y: auto;
+      }
+
+      .jumbotron{
+        background: none;
+      }
+      .rootBg{
+        position: absolute;
+        height: 55%;
+        width:150%;
+        background-color: #D3EDFB;
+      }
+      .rootBg img{
+        display: inline;
+        vertical-align: top;
+        float: none;
+      }
+      .distantSkyline{
+        position: absolute;
+        bottom: 0px;
+      }
+      .midSkyline{
+        position: absolute;
+        bottom: 0px;
+      }
+      .rowHouses{
+        position: absolute;
+        bottom: -30px;
+        left: -10px;
+      }
+      .btn-yesNo {
+        position: relative;
+        border: none;
+        cursor: pointer;
+        outline: none;
+        background: #a0ce4e;
+        color: #fff;
+        box-shadow: #ccc 0px 6px;
+        box-sizing: border-box;
+        border-radius: 50%;
+        margin: 15px 30px;
+        width: 90px;
+        height: 90px;
+        padding: 0;
+        font-family: Lato, Calibri, Arial, sans-serif;
+        font-weight: 700;
+        text-transform: uppercase;
+      }
+
+      .btn-yesNo:hover {
+        box-shadow: 0 4px #969696;
+        top: 2px;
+      }
+
+      .btn-yesNo:active {
+        box-shadow: 0 0 #969696;
+        top: 6px;
+      }
+
+      .modal-container {
+        position: relative;
+        padding: 50px;
+      }
+      .modal-container .modal, .modal-container .modal-backdrop {
+        position: absolute;
+      }
+      .modal-body {
+        padding: 15px 25px 35px 25px;
+      }
+      .modal-content {
+        background-image: url('images/greenCheck.png');
+        background-repeat: no-repeat;
+        background-origin: border-box;
+        background-position: -20px -50px;
+      }
+      .slide1 .container{
+        text-align: center;
+      }
+      .containerContent{
+        text-align: center;
+        margin-top:150px;
+      }
+      .slide1 img{
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+
+    </style>
+  </head>
+  <body>
+    <div id="content"></div>
+    <script src="build/main.js"></script>
+  </body>
+</html>
