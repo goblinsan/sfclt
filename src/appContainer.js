@@ -3,6 +3,11 @@ import Slider from 'react-slick';
 
 import Slide1 from './slide1';
 import Slide2 from './slide2';
+import Slide10 from './slide10';
+import Slide11 from './slide11';
+import Slide12 from './slide12';
+import Slide13 from './slide13';
+import Slide14 from './slide14';
 
 
 class AppContainer extends React.Component {
@@ -58,10 +63,13 @@ class AppSlider extends React.Component{
       <Slider {...settings}>
         <div><Slide1 /></div>
         <div><Slide2 /></div>
+        <div><Slide10 /></div>
+        <div><Slide11 /></div>
+        <div><Slide12 /></div>
+        <div><Slide13 /></div>
+        <div><Slide14 /></div>
         <div><h3>3</h3></div>
         <div><h3>4</h3></div>
-        <div><h3>5</h3></div>
-        <div><h3>6</h3></div>
       </Slider>
     );
   }
