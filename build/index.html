@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>SFCLT Quiz</title>
+    <link rel="stylesheet" href="css/app.css" />
+    <style>
+      #slidesWrapper{
+        position: absolute;
+        top: 75vh;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 85vw;
+        height: 40vh;
+      }
+      #allSlides{
+        position: absolute;
+        left: 80px;
+        top: 5vh;
+        display: inline-block;
+        overflow: hidden;
+        list-style-type: none;
+        white-space: nowrap;
+        width: 60vw;
+      }
+      #allSlides li{
+        display: inline-block;
+        width: 60vw;
+        margin: auto;
+      }
+      .slideText{
+        white-space: normal;
+        font-size: x-large;
+        text-align: center;
+        transform: translate3d( 0, 0, 0);
+        -webkit-font-smoothing: antialiased;
+      }
+      #slide1{
+      }
+      #slide2{
+      }
+      #slide3{
+      }
+      .btn{
+        width: 10vh;
+        color: #fff;
+        font-size: 40px;
+        text-align: center;
+        outline: none;
+        opacity: 0.3;
+        transition: opacity 300ms ease-out;
+      }
+      .btn:hover{
+        opacity: 0.7;
+      }
+      .btn:active{
+        transition: none;
+        opacity: 0.9;
+      }
+      #prev {
+        position: absolute;
+        left: 0px;
+        top: 7vh;
+      }
+      #next {
+        position: absolute;
+        right: 0px;
+        top: 7vh;
+      }
+      #yesNoButtons{
+        min-width: 20vw;
+        text-align: center;
+        margin-top: 10px;
+      }
+      .actionButton {
+        width: 150px;
+        height: 20px;
+        background-color: #fff;
+        border-radius: 20px;
+        border: 0;
+        padding: 5px;
+        font-family: arial, sans-serif;
+        font-size: small;
+        font-weight: bold;
+        text-align: center;
+        display: inline-block;
+        margin: 10px;
+      }
+      .actionButton:hover{
+        box-shadow: inset 0 0 2px #000000;
+      }
+      .actionButton:active{
+        opacity: 0.8;
+      }
+
+    </style>
+  </head>
+  <body>
+    <section id="quiz"></section>
+    <script src="js/bundle.js"></script>
+  </body>
+</html>
