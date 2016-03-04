@@ -19703,13 +19703,36 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
+function getText() {
+  var returnText = "";
+  $.ajax("testScrape.html").done(function (text) {
+    returnText = $(text).find('#myText').text();
+    console.log('text was: ' + returnText);
+  });
+  //   request('testScrape.html', function(err, resp, body){
+  //   if(!err && resp.statusCode == 200){
+  //     /var $ = cheerio.load(body)
+  //     returnText =  $("#slide1").text();
+  //     $('span.id', '#slide1').each(function(){
+  //       var url = $(this).attr('href');
+  //       urls.push(url);
+  //     });
+  //     console.log(urls);
+  //   }
+  // });
+  return { slideText: returnText };
+}
+
 var Slide1 = function (_Slide) {
   _inherits(Slide1, _Slide);
 
   function Slide1() {
     _classCallCheck(this, Slide1);
 
-    return _possibleConstructorReturn(this, Object.getPrototypeOf(Slide1).apply(this, arguments));
+    var _this = _possibleConstructorReturn(this, Object.getPrototypeOf(Slide1).call(this));
+
+    _this.state = getText();
+    return _this;
   }
 
   _createClass(Slide1, [{
@@ -19727,6 +19750,7 @@ var Slide1 = function (_Slide) {
         _react2.default.createElement(
           'div',
           { className: 'slideText' },
+          this.state.slideText,
           'Are you interested in purchasing a home but having trouble affording the costs, saving for a down payment, or competing with investors?'
         ),
         _react2.default.createElement(
@@ -20224,18 +20248,11 @@ EventEmitter.prototype.emit = function(type) {
         break;
       // slower
       default:
-        len = arguments.length;
-        args = new Array(len - 1);
-        for (i = 1; i < len; i++)
-          args[i - 1] = arguments[i];
+        args = Array.prototype.slice.call(arguments, 1);
         handler.apply(this, args);
     }
   } else if (isObject(handler)) {
-    len = arguments.length;
-    args = new Array(len - 1);
-    for (i = 1; i < len; i++)
-      args[i - 1] = arguments[i];
-
+    args = Array.prototype.slice.call(arguments, 1);
     listeners = handler.slice();
     len = listeners.length;
     for (i = 0; i < len; i++)
@@ -20273,7 +20290,6 @@ EventEmitter.prototype.addListener = function(type, listener) {
 
   // Check for listener leak
   if (isObject(this._events[type]) && !this._events[type].warned) {
-    var m;
     if (!isUndefined(this._maxListeners)) {
       m = this._maxListeners;
     } else {
@@ -20395,7 +20411,7 @@ EventEmitter.prototype.removeAllListeners = function(type) {
 
   if (isFunction(listeners)) {
     this.removeListener(type, listeners);
-  } else {
+  } else if (listeners) {
     // LIFO order
     while (listeners.length)
       this.removeListener(type, listeners[listeners.length - 1]);
@@ -20416,15 +20432,20 @@ EventEmitter.prototype.listeners = function(type) {
   return ret;
 };
 
+EventEmitter.prototype.listenerCount = function(type) {
+  if (this._events) {
+    var evlistener = this._events[type];
+
+    if (isFunction(evlistener))
+      return 1;
+    else if (evlistener)
+      return evlistener.length;
+  }
+  return 0;
+};
+
 EventEmitter.listenerCount = function(emitter, type) {
-  var ret;
-  if (!emitter._events || !emitter._events[type])
-    ret = 0;
-  else if (isFunction(emitter._events[type]))
-    ret = 1;
-  else
-    ret = emitter._events[type].length;
-  return ret;
+  return emitter.listenerCount(type);
 };
 
 function isFunction(arg) {
