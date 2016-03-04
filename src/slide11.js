@@ -47,7 +47,7 @@ class Slide11 extends React.Component {
             <img src='images/SFCLT_logo_standard_FULL-1024x382.png' width='60%' />
           </div>
         </div>
-        <div className='container'>
+        <div className='containerContent'>
           <h3>True or False: If you decide to sell your home, you can sell to any buyer at any price.</h3>
           <button className='btn-yesNo' onClick={this.showYesModal}>True</button>
           <button className='btn-yesNo' onClick={this.showNoModal}>False</button>

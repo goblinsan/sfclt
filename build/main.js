@@ -1186,7 +1186,7 @@ var EventListener = {
 
 module.exports = EventListener;
 }).call(this,require('_process'))
-},{"./emptyFunction":67,"_process":296}],61:[function(require,module,exports){
+},{"./emptyFunction":67,"_process":302}],61:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -1526,7 +1526,7 @@ function createNodesFromMarkup(markup, handleScript) {
 
 module.exports = createNodesFromMarkup;
 }).call(this,require('_process'))
-},{"./ExecutionEnvironment":61,"./createArrayFromMixed":65,"./getMarkupWrap":71,"./invariant":75,"_process":296}],67:[function(require,module,exports){
+},{"./ExecutionEnvironment":61,"./createArrayFromMixed":65,"./getMarkupWrap":71,"./invariant":75,"_process":302}],67:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -1588,7 +1588,7 @@ if (process.env.NODE_ENV !== 'production') {
 
 module.exports = emptyObject;
 }).call(this,require('_process'))
-},{"_process":296}],69:[function(require,module,exports){
+},{"_process":302}],69:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -1743,7 +1743,7 @@ function getMarkupWrap(nodeName) {
 
 module.exports = getMarkupWrap;
 }).call(this,require('_process'))
-},{"./ExecutionEnvironment":61,"./invariant":75,"_process":296}],72:[function(require,module,exports){
+},{"./ExecutionEnvironment":61,"./invariant":75,"_process":302}],72:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -1909,7 +1909,7 @@ function invariant(condition, format, a, b, c, d, e, f) {
 
 module.exports = invariant;
 }).call(this,require('_process'))
-},{"_process":296}],76:[function(require,module,exports){
+},{"_process":302}],76:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -2010,7 +2010,7 @@ var keyMirror = function (obj) {
 
 module.exports = keyMirror;
 }).call(this,require('_process'))
-},{"./invariant":75,"_process":296}],79:[function(require,module,exports){
+},{"./invariant":75,"_process":302}],79:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -2300,7 +2300,7 @@ function toArray(obj) {
 
 module.exports = toArray;
 }).call(this,require('_process'))
-},{"./invariant":75,"_process":296}],86:[function(require,module,exports){
+},{"./invariant":75,"_process":302}],86:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2014-2015, Facebook, Inc.
@@ -2360,7 +2360,7 @@ if (process.env.NODE_ENV !== 'production') {
 
 module.exports = warning;
 }).call(this,require('_process'))
-},{"./emptyFunction":67,"_process":296}],87:[function(require,module,exports){
+},{"./emptyFunction":67,"_process":302}],87:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -2415,7 +2415,7 @@ var invariant = function(condition, format, a, b, c, d, e, f) {
 module.exports = invariant;
 
 }).call(this,require('_process'))
-},{"_process":296}],88:[function(require,module,exports){
+},{"_process":302}],88:[function(require,module,exports){
 var camel2hyphen = require('string-convert/camel2hyphen');
 
 var isDimension = function (feature) {
@@ -4615,7 +4615,7 @@ exports['default'] = {
 var _curry = curry;
 exports._curry = _curry;
 }).call(this,require('_process'))
-},{"../styleMaps":126,"_process":296,"babel-runtime/helpers/extends":6,"babel-runtime/helpers/interop-require-default":8,"invariant":87,"react":289,"warning":291}],128:[function(require,module,exports){
+},{"../styleMaps":126,"_process":302,"babel-runtime/helpers/extends":6,"babel-runtime/helpers/interop-require-default":8,"invariant":87,"react":289,"warning":291}],128:[function(require,module,exports){
 /**
  * Safe chained function
  *
@@ -8189,7 +8189,7 @@ ReactPerf.measureMethods(CSSPropertyOperations, 'CSSPropertyOperations', {
 
 module.exports = CSSPropertyOperations;
 }).call(this,require('_process'))
-},{"./CSSProperty":162,"./ReactPerf":230,"./dangerousStyleValue":265,"_process":296,"fbjs/lib/ExecutionEnvironment":61,"fbjs/lib/camelizeStyleName":63,"fbjs/lib/hyphenateStyleName":74,"fbjs/lib/memoizeStringOnly":81,"fbjs/lib/warning":86}],164:[function(require,module,exports){
+},{"./CSSProperty":162,"./ReactPerf":230,"./dangerousStyleValue":265,"_process":302,"fbjs/lib/ExecutionEnvironment":61,"fbjs/lib/camelizeStyleName":63,"fbjs/lib/hyphenateStyleName":74,"fbjs/lib/memoizeStringOnly":81,"fbjs/lib/warning":86}],164:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -8285,7 +8285,7 @@ PooledClass.addPoolingTo(CallbackQueue);
 
 module.exports = CallbackQueue;
 }).call(this,require('_process'))
-},{"./Object.assign":181,"./PooledClass":182,"_process":296,"fbjs/lib/invariant":75}],165:[function(require,module,exports){
+},{"./Object.assign":181,"./PooledClass":182,"_process":302,"fbjs/lib/invariant":75}],165:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -8763,7 +8763,7 @@ ReactPerf.measureMethods(DOMChildrenOperations, 'DOMChildrenOperations', {
 
 module.exports = DOMChildrenOperations;
 }).call(this,require('_process'))
-},{"./Danger":170,"./ReactMultiChildUpdateTypes":226,"./ReactPerf":230,"./setInnerHTML":284,"./setTextContent":285,"_process":296,"fbjs/lib/invariant":75}],168:[function(require,module,exports){
+},{"./Danger":170,"./ReactMultiChildUpdateTypes":226,"./ReactPerf":230,"./setInnerHTML":284,"./setTextContent":285,"_process":302,"fbjs/lib/invariant":75}],168:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -9000,7 +9000,7 @@ var DOMProperty = {
 
 module.exports = DOMProperty;
 }).call(this,require('_process'))
-},{"_process":296,"fbjs/lib/invariant":75}],169:[function(require,module,exports){
+},{"_process":302,"fbjs/lib/invariant":75}],169:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -9228,7 +9228,7 @@ ReactPerf.measureMethods(DOMPropertyOperations, 'DOMPropertyOperations', {
 
 module.exports = DOMPropertyOperations;
 }).call(this,require('_process'))
-},{"./DOMProperty":168,"./ReactPerf":230,"./quoteAttributeValueForBrowser":282,"_process":296,"fbjs/lib/warning":86}],170:[function(require,module,exports){
+},{"./DOMProperty":168,"./ReactPerf":230,"./quoteAttributeValueForBrowser":282,"_process":302,"fbjs/lib/warning":86}],170:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -9376,7 +9376,7 @@ var Danger = {
 
 module.exports = Danger;
 }).call(this,require('_process'))
-},{"_process":296,"fbjs/lib/ExecutionEnvironment":61,"fbjs/lib/createNodesFromMarkup":66,"fbjs/lib/emptyFunction":67,"fbjs/lib/getMarkupWrap":71,"fbjs/lib/invariant":75}],171:[function(require,module,exports){
+},{"_process":302,"fbjs/lib/ExecutionEnvironment":61,"fbjs/lib/createNodesFromMarkup":66,"fbjs/lib/emptyFunction":67,"fbjs/lib/getMarkupWrap":71,"fbjs/lib/invariant":75}],171:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -9904,7 +9904,7 @@ var EventPluginHub = {
 
 module.exports = EventPluginHub;
 }).call(this,require('_process'))
-},{"./EventPluginRegistry":175,"./EventPluginUtils":176,"./ReactErrorUtils":215,"./accumulateInto":262,"./forEachAccumulated":270,"_process":296,"fbjs/lib/invariant":75,"fbjs/lib/warning":86}],175:[function(require,module,exports){
+},{"./EventPluginRegistry":175,"./EventPluginUtils":176,"./ReactErrorUtils":215,"./accumulateInto":262,"./forEachAccumulated":270,"_process":302,"fbjs/lib/invariant":75,"fbjs/lib/warning":86}],175:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -10127,7 +10127,7 @@ var EventPluginRegistry = {
 
 module.exports = EventPluginRegistry;
 }).call(this,require('_process'))
-},{"_process":296,"fbjs/lib/invariant":75}],176:[function(require,module,exports){
+},{"_process":302,"fbjs/lib/invariant":75}],176:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -10332,7 +10332,7 @@ var EventPluginUtils = {
 
 module.exports = EventPluginUtils;
 }).call(this,require('_process'))
-},{"./EventConstants":173,"./ReactErrorUtils":215,"_process":296,"fbjs/lib/invariant":75,"fbjs/lib/warning":86}],177:[function(require,module,exports){
+},{"./EventConstants":173,"./ReactErrorUtils":215,"_process":302,"fbjs/lib/invariant":75,"fbjs/lib/warning":86}],177:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -10470,7 +10470,7 @@ var EventPropagators = {
 
 module.exports = EventPropagators;
 }).call(this,require('_process'))
-},{"./EventConstants":173,"./EventPluginHub":174,"./accumulateInto":262,"./forEachAccumulated":270,"_process":296,"fbjs/lib/warning":86}],178:[function(require,module,exports){
+},{"./EventConstants":173,"./EventPluginHub":174,"./accumulateInto":262,"./forEachAccumulated":270,"_process":302,"fbjs/lib/warning":86}],178:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -10934,7 +10934,7 @@ var LinkedValueUtils = {
 
 module.exports = LinkedValueUtils;
 }).call(this,require('_process'))
-},{"./ReactPropTypeLocations":232,"./ReactPropTypes":233,"_process":296,"fbjs/lib/invariant":75,"fbjs/lib/warning":86}],181:[function(require,module,exports){
+},{"./ReactPropTypeLocations":232,"./ReactPropTypes":233,"_process":302,"fbjs/lib/invariant":75,"fbjs/lib/warning":86}],181:[function(require,module,exports){
 /**
  * Copyright 2014-2015, Facebook, Inc.
  * All rights reserved.
@@ -11104,7 +11104,7 @@ var PooledClass = {
 
 module.exports = PooledClass;
 }).call(this,require('_process'))
-},{"_process":296,"fbjs/lib/invariant":75}],183:[function(require,module,exports){
+},{"_process":302,"fbjs/lib/invariant":75}],183:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -11184,7 +11184,7 @@ var ReactBrowserComponentMixin = {
 
 module.exports = ReactBrowserComponentMixin;
 }).call(this,require('_process'))
-},{"./ReactInstanceMap":221,"./findDOMNode":268,"_process":296,"fbjs/lib/warning":86}],185:[function(require,module,exports){
+},{"./ReactInstanceMap":221,"./findDOMNode":268,"_process":302,"fbjs/lib/warning":86}],185:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -11634,7 +11634,7 @@ var ReactChildReconciler = {
 
 module.exports = ReactChildReconciler;
 }).call(this,require('_process'))
-},{"./ReactReconciler":235,"./instantiateReactComponent":278,"./shouldUpdateReactComponent":286,"./traverseAllChildren":287,"_process":296,"fbjs/lib/warning":86}],187:[function(require,module,exports){
+},{"./ReactReconciler":235,"./instantiateReactComponent":278,"./shouldUpdateReactComponent":286,"./traverseAllChildren":287,"_process":302,"fbjs/lib/warning":86}],187:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -12591,7 +12591,7 @@ var ReactClass = {
 
 module.exports = ReactClass;
 }).call(this,require('_process'))
-},{"./Object.assign":181,"./ReactComponent":189,"./ReactElement":211,"./ReactNoopUpdateQueue":228,"./ReactPropTypeLocationNames":231,"./ReactPropTypeLocations":232,"_process":296,"fbjs/lib/emptyObject":68,"fbjs/lib/invariant":75,"fbjs/lib/keyMirror":78,"fbjs/lib/keyOf":79,"fbjs/lib/warning":86}],189:[function(require,module,exports){
+},{"./Object.assign":181,"./ReactComponent":189,"./ReactElement":211,"./ReactNoopUpdateQueue":228,"./ReactPropTypeLocationNames":231,"./ReactPropTypeLocations":232,"_process":302,"fbjs/lib/emptyObject":68,"fbjs/lib/invariant":75,"fbjs/lib/keyMirror":78,"fbjs/lib/keyOf":79,"fbjs/lib/warning":86}],189:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -12716,7 +12716,7 @@ if (process.env.NODE_ENV !== 'production') {
 
 module.exports = ReactComponent;
 }).call(this,require('_process'))
-},{"./ReactNoopUpdateQueue":228,"./canDefineProperty":264,"_process":296,"fbjs/lib/emptyObject":68,"fbjs/lib/invariant":75,"fbjs/lib/warning":86}],190:[function(require,module,exports){
+},{"./ReactNoopUpdateQueue":228,"./canDefineProperty":264,"_process":302,"fbjs/lib/emptyObject":68,"fbjs/lib/invariant":75,"fbjs/lib/warning":86}],190:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -12812,7 +12812,7 @@ var ReactComponentEnvironment = {
 
 module.exports = ReactComponentEnvironment;
 }).call(this,require('_process'))
-},{"_process":296,"fbjs/lib/invariant":75}],192:[function(require,module,exports){
+},{"_process":302,"fbjs/lib/invariant":75}],192:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -13509,7 +13509,7 @@ var ReactCompositeComponent = {
 
 module.exports = ReactCompositeComponent;
 }).call(this,require('_process'))
-},{"./Object.assign":181,"./ReactComponentEnvironment":191,"./ReactCurrentOwner":193,"./ReactElement":211,"./ReactInstanceMap":221,"./ReactPerf":230,"./ReactPropTypeLocationNames":231,"./ReactPropTypeLocations":232,"./ReactReconciler":235,"./ReactUpdateQueue":242,"./shouldUpdateReactComponent":286,"_process":296,"fbjs/lib/emptyObject":68,"fbjs/lib/invariant":75,"fbjs/lib/warning":86}],193:[function(require,module,exports){
+},{"./Object.assign":181,"./ReactComponentEnvironment":191,"./ReactCurrentOwner":193,"./ReactElement":211,"./ReactInstanceMap":221,"./ReactPerf":230,"./ReactPropTypeLocationNames":231,"./ReactPropTypeLocations":232,"./ReactReconciler":235,"./ReactUpdateQueue":242,"./shouldUpdateReactComponent":286,"_process":302,"fbjs/lib/emptyObject":68,"fbjs/lib/invariant":75,"fbjs/lib/warning":86}],193:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -13635,7 +13635,7 @@ if (process.env.NODE_ENV !== 'production') {
 
 module.exports = React;
 }).call(this,require('_process'))
-},{"./ReactCurrentOwner":193,"./ReactDOMTextComponent":205,"./ReactDefaultInjection":208,"./ReactInstanceHandles":220,"./ReactMount":224,"./ReactPerf":230,"./ReactReconciler":235,"./ReactUpdates":243,"./ReactVersion":244,"./findDOMNode":268,"./renderSubtreeIntoContainer":283,"_process":296,"fbjs/lib/ExecutionEnvironment":61,"fbjs/lib/warning":86}],195:[function(require,module,exports){
+},{"./ReactCurrentOwner":193,"./ReactDOMTextComponent":205,"./ReactDefaultInjection":208,"./ReactInstanceHandles":220,"./ReactMount":224,"./ReactPerf":230,"./ReactReconciler":235,"./ReactUpdates":243,"./ReactVersion":244,"./findDOMNode":268,"./renderSubtreeIntoContainer":283,"_process":302,"fbjs/lib/ExecutionEnvironment":61,"fbjs/lib/warning":86}],195:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -14651,7 +14651,7 @@ assign(ReactDOMComponent.prototype, ReactDOMComponent.Mixin, ReactMultiChild.Mix
 
 module.exports = ReactDOMComponent;
 }).call(this,require('_process'))
-},{"./AutoFocusUtils":160,"./CSSPropertyOperations":163,"./DOMProperty":168,"./DOMPropertyOperations":169,"./EventConstants":173,"./Object.assign":181,"./ReactBrowserEventEmitter":185,"./ReactComponentBrowserEnvironment":190,"./ReactDOMButton":195,"./ReactDOMInput":200,"./ReactDOMOption":201,"./ReactDOMSelect":202,"./ReactDOMTextarea":206,"./ReactMount":224,"./ReactMultiChild":225,"./ReactPerf":230,"./ReactUpdateQueue":242,"./canDefineProperty":264,"./escapeTextContentForBrowser":267,"./isEventSupported":279,"./setInnerHTML":284,"./setTextContent":285,"./validateDOMNesting":288,"_process":296,"fbjs/lib/invariant":75,"fbjs/lib/keyOf":79,"fbjs/lib/shallowEqual":84,"fbjs/lib/warning":86}],197:[function(require,module,exports){
+},{"./AutoFocusUtils":160,"./CSSPropertyOperations":163,"./DOMProperty":168,"./DOMPropertyOperations":169,"./EventConstants":173,"./Object.assign":181,"./ReactBrowserEventEmitter":185,"./ReactComponentBrowserEnvironment":190,"./ReactDOMButton":195,"./ReactDOMInput":200,"./ReactDOMOption":201,"./ReactDOMSelect":202,"./ReactDOMTextarea":206,"./ReactMount":224,"./ReactMultiChild":225,"./ReactPerf":230,"./ReactUpdateQueue":242,"./canDefineProperty":264,"./escapeTextContentForBrowser":267,"./isEventSupported":279,"./setInnerHTML":284,"./setTextContent":285,"./validateDOMNesting":288,"_process":302,"fbjs/lib/invariant":75,"fbjs/lib/keyOf":79,"fbjs/lib/shallowEqual":84,"fbjs/lib/warning":86}],197:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -14831,7 +14831,7 @@ var ReactDOMFactories = mapObject({
 
 module.exports = ReactDOMFactories;
 }).call(this,require('_process'))
-},{"./ReactElement":211,"./ReactElementValidator":212,"_process":296,"fbjs/lib/mapObject":80}],198:[function(require,module,exports){
+},{"./ReactElement":211,"./ReactElementValidator":212,"_process":302,"fbjs/lib/mapObject":80}],198:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -14947,7 +14947,7 @@ ReactPerf.measureMethods(ReactDOMIDOperations, 'ReactDOMIDOperations', {
 
 module.exports = ReactDOMIDOperations;
 }).call(this,require('_process'))
-},{"./DOMChildrenOperations":167,"./DOMPropertyOperations":169,"./ReactMount":224,"./ReactPerf":230,"_process":296,"fbjs/lib/invariant":75}],200:[function(require,module,exports){
+},{"./DOMChildrenOperations":167,"./DOMPropertyOperations":169,"./ReactMount":224,"./ReactPerf":230,"_process":302,"fbjs/lib/invariant":75}],200:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -15103,7 +15103,7 @@ function _handleChange(event) {
 
 module.exports = ReactDOMInput;
 }).call(this,require('_process'))
-},{"./LinkedValueUtils":180,"./Object.assign":181,"./ReactDOMIDOperations":199,"./ReactMount":224,"./ReactUpdates":243,"_process":296,"fbjs/lib/invariant":75}],201:[function(require,module,exports){
+},{"./LinkedValueUtils":180,"./Object.assign":181,"./ReactDOMIDOperations":199,"./ReactMount":224,"./ReactUpdates":243,"_process":302,"fbjs/lib/invariant":75}],201:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -15192,7 +15192,7 @@ var ReactDOMOption = {
 
 module.exports = ReactDOMOption;
 }).call(this,require('_process'))
-},{"./Object.assign":181,"./ReactChildren":187,"./ReactDOMSelect":202,"_process":296,"fbjs/lib/warning":86}],202:[function(require,module,exports){
+},{"./Object.assign":181,"./ReactChildren":187,"./ReactDOMSelect":202,"_process":302,"fbjs/lib/warning":86}],202:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -15383,7 +15383,7 @@ function _handleChange(event) {
 
 module.exports = ReactDOMSelect;
 }).call(this,require('_process'))
-},{"./LinkedValueUtils":180,"./Object.assign":181,"./ReactMount":224,"./ReactUpdates":243,"_process":296,"fbjs/lib/warning":86}],203:[function(require,module,exports){
+},{"./LinkedValueUtils":180,"./Object.assign":181,"./ReactMount":224,"./ReactUpdates":243,"_process":302,"fbjs/lib/warning":86}],203:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -15753,7 +15753,7 @@ assign(ReactDOMTextComponent.prototype, {
 
 module.exports = ReactDOMTextComponent;
 }).call(this,require('_process'))
-},{"./DOMChildrenOperations":167,"./DOMPropertyOperations":169,"./Object.assign":181,"./ReactComponentBrowserEnvironment":190,"./ReactMount":224,"./escapeTextContentForBrowser":267,"./setTextContent":285,"./validateDOMNesting":288,"_process":296}],206:[function(require,module,exports){
+},{"./DOMChildrenOperations":167,"./DOMPropertyOperations":169,"./Object.assign":181,"./ReactComponentBrowserEnvironment":190,"./ReactMount":224,"./escapeTextContentForBrowser":267,"./setTextContent":285,"./validateDOMNesting":288,"_process":302}],206:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -15869,7 +15869,7 @@ function _handleChange(event) {
 
 module.exports = ReactDOMTextarea;
 }).call(this,require('_process'))
-},{"./LinkedValueUtils":180,"./Object.assign":181,"./ReactDOMIDOperations":199,"./ReactUpdates":243,"_process":296,"fbjs/lib/invariant":75,"fbjs/lib/warning":86}],207:[function(require,module,exports){
+},{"./LinkedValueUtils":180,"./Object.assign":181,"./ReactDOMIDOperations":199,"./ReactUpdates":243,"_process":302,"fbjs/lib/invariant":75,"fbjs/lib/warning":86}],207:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -16037,7 +16037,7 @@ module.exports = {
   inject: inject
 };
 }).call(this,require('_process'))
-},{"./BeforeInputEventPlugin":161,"./ChangeEventPlugin":165,"./ClientReactRootIndex":166,"./DefaultEventPluginOrder":171,"./EnterLeaveEventPlugin":172,"./HTMLDOMPropertyConfig":179,"./ReactBrowserComponentMixin":184,"./ReactComponentBrowserEnvironment":190,"./ReactDOMComponent":196,"./ReactDOMTextComponent":205,"./ReactDefaultBatchingStrategy":207,"./ReactDefaultPerf":209,"./ReactEventListener":217,"./ReactInjection":218,"./ReactInstanceHandles":220,"./ReactMount":224,"./ReactReconcileTransaction":234,"./SVGDOMPropertyConfig":245,"./SelectEventPlugin":246,"./ServerReactRootIndex":247,"./SimpleEventPlugin":248,"_process":296,"fbjs/lib/ExecutionEnvironment":61}],209:[function(require,module,exports){
+},{"./BeforeInputEventPlugin":161,"./ChangeEventPlugin":165,"./ClientReactRootIndex":166,"./DefaultEventPluginOrder":171,"./EnterLeaveEventPlugin":172,"./HTMLDOMPropertyConfig":179,"./ReactBrowserComponentMixin":184,"./ReactComponentBrowserEnvironment":190,"./ReactDOMComponent":196,"./ReactDOMTextComponent":205,"./ReactDefaultBatchingStrategy":207,"./ReactDefaultPerf":209,"./ReactEventListener":217,"./ReactInjection":218,"./ReactInstanceHandles":220,"./ReactMount":224,"./ReactReconcileTransaction":234,"./SVGDOMPropertyConfig":245,"./SelectEventPlugin":246,"./ServerReactRootIndex":247,"./SimpleEventPlugin":248,"_process":302,"fbjs/lib/ExecutionEnvironment":61}],209:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -16727,7 +16727,7 @@ ReactElement.isValidElement = function (object) {
 
 module.exports = ReactElement;
 }).call(this,require('_process'))
-},{"./Object.assign":181,"./ReactCurrentOwner":193,"./canDefineProperty":264,"_process":296}],212:[function(require,module,exports){
+},{"./Object.assign":181,"./ReactCurrentOwner":193,"./canDefineProperty":264,"_process":302}],212:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2014-2015, Facebook, Inc.
@@ -17011,7 +17011,7 @@ var ReactElementValidator = {
 
 module.exports = ReactElementValidator;
 }).call(this,require('_process'))
-},{"./ReactCurrentOwner":193,"./ReactElement":211,"./ReactPropTypeLocationNames":231,"./ReactPropTypeLocations":232,"./canDefineProperty":264,"./getIteratorFn":275,"_process":296,"fbjs/lib/invariant":75,"fbjs/lib/warning":86}],213:[function(require,module,exports){
+},{"./ReactCurrentOwner":193,"./ReactElement":211,"./ReactPropTypeLocationNames":231,"./ReactPropTypeLocations":232,"./canDefineProperty":264,"./getIteratorFn":275,"_process":302,"fbjs/lib/invariant":75,"fbjs/lib/warning":86}],213:[function(require,module,exports){
 /**
  * Copyright 2014-2015, Facebook, Inc.
  * All rights reserved.
@@ -17192,7 +17192,7 @@ if (process.env.NODE_ENV !== 'production') {
 
 module.exports = ReactErrorUtils;
 }).call(this,require('_process'))
-},{"_process":296}],216:[function(require,module,exports){
+},{"_process":302}],216:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -17912,7 +17912,7 @@ var ReactInstanceHandles = {
 
 module.exports = ReactInstanceHandles;
 }).call(this,require('_process'))
-},{"./ReactRootIndex":237,"_process":296,"fbjs/lib/invariant":75}],221:[function(require,module,exports){
+},{"./ReactRootIndex":237,"_process":302,"fbjs/lib/invariant":75}],221:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -18037,7 +18037,7 @@ var React = {
 
 module.exports = React;
 }).call(this,require('_process'))
-},{"./Object.assign":181,"./ReactChildren":187,"./ReactClass":188,"./ReactComponent":189,"./ReactDOMFactories":197,"./ReactElement":211,"./ReactElementValidator":212,"./ReactPropTypes":233,"./ReactVersion":244,"./onlyChild":281,"_process":296}],223:[function(require,module,exports){
+},{"./Object.assign":181,"./ReactChildren":187,"./ReactClass":188,"./ReactComponent":189,"./ReactDOMFactories":197,"./ReactElement":211,"./ReactElementValidator":212,"./ReactPropTypes":233,"./ReactVersion":244,"./onlyChild":281,"_process":302}],223:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -18936,7 +18936,7 @@ ReactPerf.measureMethods(ReactMount, 'ReactMount', {
 
 module.exports = ReactMount;
 }).call(this,require('_process'))
-},{"./DOMProperty":168,"./Object.assign":181,"./ReactBrowserEventEmitter":185,"./ReactCurrentOwner":193,"./ReactDOMFeatureFlags":198,"./ReactElement":211,"./ReactEmptyComponentRegistry":214,"./ReactInstanceHandles":220,"./ReactInstanceMap":221,"./ReactMarkupChecksum":223,"./ReactPerf":230,"./ReactReconciler":235,"./ReactUpdateQueue":242,"./ReactUpdates":243,"./instantiateReactComponent":278,"./setInnerHTML":284,"./shouldUpdateReactComponent":286,"./validateDOMNesting":288,"_process":296,"fbjs/lib/containsNode":64,"fbjs/lib/emptyObject":68,"fbjs/lib/invariant":75,"fbjs/lib/warning":86}],225:[function(require,module,exports){
+},{"./DOMProperty":168,"./Object.assign":181,"./ReactBrowserEventEmitter":185,"./ReactCurrentOwner":193,"./ReactDOMFeatureFlags":198,"./ReactElement":211,"./ReactEmptyComponentRegistry":214,"./ReactInstanceHandles":220,"./ReactInstanceMap":221,"./ReactMarkupChecksum":223,"./ReactPerf":230,"./ReactReconciler":235,"./ReactUpdateQueue":242,"./ReactUpdates":243,"./instantiateReactComponent":278,"./setInnerHTML":284,"./shouldUpdateReactComponent":286,"./validateDOMNesting":288,"_process":302,"fbjs/lib/containsNode":64,"fbjs/lib/emptyObject":68,"fbjs/lib/invariant":75,"fbjs/lib/warning":86}],225:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -19435,7 +19435,7 @@ var ReactMultiChild = {
 
 module.exports = ReactMultiChild;
 }).call(this,require('_process'))
-},{"./ReactChildReconciler":186,"./ReactComponentEnvironment":191,"./ReactCurrentOwner":193,"./ReactMultiChildUpdateTypes":226,"./ReactReconciler":235,"./flattenChildren":269,"_process":296}],226:[function(require,module,exports){
+},{"./ReactChildReconciler":186,"./ReactComponentEnvironment":191,"./ReactCurrentOwner":193,"./ReactMultiChildUpdateTypes":226,"./ReactReconciler":235,"./flattenChildren":269,"_process":302}],226:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -19565,7 +19565,7 @@ var ReactNativeComponent = {
 
 module.exports = ReactNativeComponent;
 }).call(this,require('_process'))
-},{"./Object.assign":181,"_process":296,"fbjs/lib/invariant":75}],228:[function(require,module,exports){
+},{"./Object.assign":181,"_process":302,"fbjs/lib/invariant":75}],228:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2015, Facebook, Inc.
@@ -19686,7 +19686,7 @@ var ReactNoopUpdateQueue = {
 
 module.exports = ReactNoopUpdateQueue;
 }).call(this,require('_process'))
-},{"_process":296,"fbjs/lib/warning":86}],229:[function(require,module,exports){
+},{"_process":302,"fbjs/lib/warning":86}],229:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -19780,7 +19780,7 @@ var ReactOwner = {
 
 module.exports = ReactOwner;
 }).call(this,require('_process'))
-},{"_process":296,"fbjs/lib/invariant":75}],230:[function(require,module,exports){
+},{"_process":302,"fbjs/lib/invariant":75}],230:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -19879,7 +19879,7 @@ function _noMeasure(objName, fnName, func) {
 
 module.exports = ReactPerf;
 }).call(this,require('_process'))
-},{"_process":296}],231:[function(require,module,exports){
+},{"_process":302}],231:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -19906,7 +19906,7 @@ if (process.env.NODE_ENV !== 'production') {
 
 module.exports = ReactPropTypeLocationNames;
 }).call(this,require('_process'))
-},{"_process":296}],232:[function(require,module,exports){
+},{"_process":302}],232:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -20765,7 +20765,7 @@ module.exports = {
   renderToStaticMarkup: renderToStaticMarkup
 };
 }).call(this,require('_process'))
-},{"./ReactDefaultBatchingStrategy":207,"./ReactElement":211,"./ReactInstanceHandles":220,"./ReactMarkupChecksum":223,"./ReactServerBatchingStrategy":238,"./ReactServerRenderingTransaction":240,"./ReactUpdates":243,"./instantiateReactComponent":278,"_process":296,"fbjs/lib/emptyObject":68,"fbjs/lib/invariant":75}],240:[function(require,module,exports){
+},{"./ReactDefaultBatchingStrategy":207,"./ReactElement":211,"./ReactInstanceHandles":220,"./ReactMarkupChecksum":223,"./ReactServerBatchingStrategy":238,"./ReactServerRenderingTransaction":240,"./ReactUpdates":243,"./instantiateReactComponent":278,"_process":302,"fbjs/lib/emptyObject":68,"fbjs/lib/invariant":75}],240:[function(require,module,exports){
 /**
  * Copyright 2014-2015, Facebook, Inc.
  * All rights reserved.
@@ -21223,7 +21223,7 @@ var ReactUpdateQueue = {
 
 module.exports = ReactUpdateQueue;
 }).call(this,require('_process'))
-},{"./Object.assign":181,"./ReactCurrentOwner":193,"./ReactElement":211,"./ReactInstanceMap":221,"./ReactUpdates":243,"_process":296,"fbjs/lib/invariant":75,"fbjs/lib/warning":86}],243:[function(require,module,exports){
+},{"./Object.assign":181,"./ReactCurrentOwner":193,"./ReactElement":211,"./ReactInstanceMap":221,"./ReactUpdates":243,"_process":302,"fbjs/lib/invariant":75,"fbjs/lib/warning":86}],243:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -21449,7 +21449,7 @@ var ReactUpdates = {
 
 module.exports = ReactUpdates;
 }).call(this,require('_process'))
-},{"./CallbackQueue":164,"./Object.assign":181,"./PooledClass":182,"./ReactPerf":230,"./ReactReconciler":235,"./Transaction":260,"_process":296,"fbjs/lib/invariant":75}],244:[function(require,module,exports){
+},{"./CallbackQueue":164,"./Object.assign":181,"./PooledClass":182,"./ReactPerf":230,"./ReactReconciler":235,"./Transaction":260,"_process":302,"fbjs/lib/invariant":75}],244:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -22414,7 +22414,7 @@ var SimpleEventPlugin = {
 
 module.exports = SimpleEventPlugin;
 }).call(this,require('_process'))
-},{"./EventConstants":173,"./EventPropagators":177,"./ReactMount":224,"./SyntheticClipboardEvent":249,"./SyntheticDragEvent":251,"./SyntheticEvent":252,"./SyntheticFocusEvent":253,"./SyntheticKeyboardEvent":255,"./SyntheticMouseEvent":256,"./SyntheticTouchEvent":257,"./SyntheticUIEvent":258,"./SyntheticWheelEvent":259,"./getEventCharCode":271,"_process":296,"fbjs/lib/EventListener":60,"fbjs/lib/emptyFunction":67,"fbjs/lib/invariant":75,"fbjs/lib/keyOf":79}],249:[function(require,module,exports){
+},{"./EventConstants":173,"./EventPropagators":177,"./ReactMount":224,"./SyntheticClipboardEvent":249,"./SyntheticDragEvent":251,"./SyntheticEvent":252,"./SyntheticFocusEvent":253,"./SyntheticKeyboardEvent":255,"./SyntheticMouseEvent":256,"./SyntheticTouchEvent":257,"./SyntheticUIEvent":258,"./SyntheticWheelEvent":259,"./getEventCharCode":271,"_process":302,"fbjs/lib/EventListener":60,"fbjs/lib/emptyFunction":67,"fbjs/lib/invariant":75,"fbjs/lib/keyOf":79}],249:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -22710,7 +22710,7 @@ PooledClass.addPoolingTo(SyntheticEvent, PooledClass.fourArgumentPooler);
 
 module.exports = SyntheticEvent;
 }).call(this,require('_process'))
-},{"./Object.assign":181,"./PooledClass":182,"_process":296,"fbjs/lib/emptyFunction":67,"fbjs/lib/warning":86}],253:[function(require,module,exports){
+},{"./Object.assign":181,"./PooledClass":182,"_process":302,"fbjs/lib/emptyFunction":67,"fbjs/lib/warning":86}],253:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -23345,7 +23345,7 @@ var Transaction = {
 
 module.exports = Transaction;
 }).call(this,require('_process'))
-},{"_process":296,"fbjs/lib/invariant":75}],261:[function(require,module,exports){
+},{"_process":302,"fbjs/lib/invariant":75}],261:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -23435,7 +23435,7 @@ function accumulateInto(current, next) {
 
 module.exports = accumulateInto;
 }).call(this,require('_process'))
-},{"_process":296,"fbjs/lib/invariant":75}],263:[function(require,module,exports){
+},{"_process":302,"fbjs/lib/invariant":75}],263:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -23505,7 +23505,7 @@ if (process.env.NODE_ENV !== 'production') {
 
 module.exports = canDefineProperty;
 }).call(this,require('_process'))
-},{"_process":296}],265:[function(require,module,exports){
+},{"_process":302}],265:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -23612,7 +23612,7 @@ function deprecated(fnName, newModule, newPackage, ctx, fn) {
 
 module.exports = deprecated;
 }).call(this,require('_process'))
-},{"./Object.assign":181,"_process":296,"fbjs/lib/warning":86}],267:[function(require,module,exports){
+},{"./Object.assign":181,"_process":302,"fbjs/lib/warning":86}],267:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -23703,7 +23703,7 @@ function findDOMNode(componentOrElement) {
 
 module.exports = findDOMNode;
 }).call(this,require('_process'))
-},{"./ReactCurrentOwner":193,"./ReactInstanceMap":221,"./ReactMount":224,"_process":296,"fbjs/lib/invariant":75,"fbjs/lib/warning":86}],269:[function(require,module,exports){
+},{"./ReactCurrentOwner":193,"./ReactInstanceMap":221,"./ReactMount":224,"_process":302,"fbjs/lib/invariant":75,"fbjs/lib/warning":86}],269:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -23754,7 +23754,7 @@ function flattenChildren(children) {
 
 module.exports = flattenChildren;
 }).call(this,require('_process'))
-},{"./traverseAllChildren":287,"_process":296,"fbjs/lib/warning":86}],270:[function(require,module,exports){
+},{"./traverseAllChildren":287,"_process":302,"fbjs/lib/warning":86}],270:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -24278,7 +24278,7 @@ function instantiateReactComponent(node) {
 
 module.exports = instantiateReactComponent;
 }).call(this,require('_process'))
-},{"./Object.assign":181,"./ReactCompositeComponent":192,"./ReactEmptyComponent":213,"./ReactNativeComponent":227,"_process":296,"fbjs/lib/invariant":75,"fbjs/lib/warning":86}],279:[function(require,module,exports){
+},{"./Object.assign":181,"./ReactCompositeComponent":192,"./ReactEmptyComponent":213,"./ReactNativeComponent":227,"_process":302,"fbjs/lib/invariant":75,"fbjs/lib/warning":86}],279:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -24416,7 +24416,7 @@ function onlyChild(children) {
 
 module.exports = onlyChild;
 }).call(this,require('_process'))
-},{"./ReactElement":211,"_process":296,"fbjs/lib/invariant":75}],282:[function(require,module,exports){
+},{"./ReactElement":211,"_process":302,"fbjs/lib/invariant":75}],282:[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -24828,7 +24828,7 @@ function traverseAllChildren(children, callback, traverseContext) {
 
 module.exports = traverseAllChildren;
 }).call(this,require('_process'))
-},{"./ReactCurrentOwner":193,"./ReactElement":211,"./ReactInstanceHandles":220,"./getIteratorFn":275,"_process":296,"fbjs/lib/invariant":75,"fbjs/lib/warning":86}],288:[function(require,module,exports){
+},{"./ReactCurrentOwner":193,"./ReactElement":211,"./ReactInstanceHandles":220,"./getIteratorFn":275,"_process":302,"fbjs/lib/invariant":75,"fbjs/lib/warning":86}],288:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2015, Facebook, Inc.
@@ -25194,7 +25194,7 @@ if (process.env.NODE_ENV !== 'production') {
 
 module.exports = validateDOMNesting;
 }).call(this,require('_process'))
-},{"./Object.assign":181,"_process":296,"fbjs/lib/emptyFunction":67,"fbjs/lib/warning":86}],289:[function(require,module,exports){
+},{"./Object.assign":181,"_process":302,"fbjs/lib/emptyFunction":67,"fbjs/lib/warning":86}],289:[function(require,module,exports){
 'use strict';
 
 module.exports = require('./lib/React');
@@ -25273,7 +25273,173 @@ if (process.env.NODE_ENV !== 'production') {
 module.exports = warning;
 
 }).call(this,require('_process'))
-},{"_process":296}],292:[function(require,module,exports){
+},{"_process":302}],292:[function(require,module,exports){
+'use strict';
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = require('react');
+
+var _react2 = _interopRequireDefault(_react);
+
+var _Modal = require('react-bootstrap/lib/Modal');
+
+var _Modal2 = _interopRequireDefault(_Modal);
+
+var _Button = require('react-bootstrap/lib/Button');
+
+var _Button2 = _interopRequireDefault(_Button);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var Slide3 = (function (_React$Component) {
+  _inherits(Slide3, _React$Component);
+
+  function Slide3() {
+    var _Object$getPrototypeO;
+
+    var _temp, _this, _ret;
+
+    _classCallCheck(this, Slide3);
+
+    for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {
+      args[_key] = arguments[_key];
+    }
+
+    return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_Object$getPrototypeO = Object.getPrototypeOf(Slide3)).call.apply(_Object$getPrototypeO, [this].concat(args))), _this), _this.state = {
+      showYes: false,
+      showNo: false,
+      clickHandler: _this.changeSlide
+    }, _this.slideOptions = {
+      dots: true,
+      lazyLoad: true,
+      infinite: true,
+      speed: 500,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      adaptiveHeight: false
+    }, _this.showYesModal = function () {
+      _this.setState({ showYes: true });
+    }, _this.hideYesModal = function () {
+      _this.setState({ showYes: false });
+      console.log("hey joe");
+      console.log(_this.props.nextSlide);
+      _this.props.nextSlide(_this.state.slideOptions);
+    }, _this.showNoModal = function () {
+      _this.setState({ showNo: true });
+    }, _this.hideNoModal = function () {
+      _this.setState({ showNo: false });
+    }, _temp), _possibleConstructorReturn(_this, _ret);
+  }
+
+  _createClass(Slide3, [{
+    key: 'render',
+    value: function render() {
+      return _react2.default.createElement(
+        'div',
+        { className: 'slide3' },
+        _react2.default.createElement(
+          'div',
+          { className: 'jumbotron' },
+          _react2.default.createElement(
+            'div',
+            { className: 'container' },
+            _react2.default.createElement('img', { src: 'images/SFCLT_logo_standard_FULL-1024x382.png', width: '60%' })
+          )
+        ),
+        _react2.default.createElement(
+          'div',
+          { className: 'containerContent' },
+          _react2.default.createElement(
+            'h3',
+            null,
+            'CLT homeownership is structured a little differently than what you\'re probably used to. You, as a homebuyer, will purchase the house while we, the South Florida CLT, will maintain ownership of the land. Let\'s talk more about what that means.'
+          ),
+          _react2.default.createElement(
+            'button',
+            { className: 'btn-yesNo', onClick: this.showYesModal },
+            'Fact 1'
+          ),
+          _react2.default.createElement(
+            'button',
+            { className: 'btn-yesNo', onClick: this.showNoModal },
+            'Fact 2'
+          )
+        ),
+        _react2.default.createElement(
+          _Modal2.default,
+          _extends({}, this.props, {
+            show: this.state.showYes,
+            onHide: this.hideYesModal,
+            dialogClassName: 'custom-modal'
+          }),
+          _react2.default.createElement(
+            _Modal2.default.Body,
+            null,
+            _react2.default.createElement(
+              'h4',
+              null,
+              'The price of a CLT is significantly reduced because you don\'t have to buy the land. This means your mortgage, taxes, and downpayment will also be much lower than if you purchased a home at market rates.'
+            )
+          ),
+          _react2.default.createElement(
+            _Modal2.default.Footer,
+            null,
+            _react2.default.createElement(
+              _Button2.default,
+              { onClick: this.hideYesModal },
+              'Learn How'
+            )
+          )
+        ),
+        _react2.default.createElement(
+          _Modal2.default,
+          _extends({}, this.props, {
+            show: this.state.showNo,
+            onHide: this.hideNoModal,
+            dialogClassName: 'custom-modal'
+          }),
+          _react2.default.createElement(
+            _Modal2.default.Body,
+            null,
+            _react2.default.createElement(
+              'h4',
+              null,
+              'It\'s important to know, that even though you won\'t own the land, you\'ll have full rights to use and access it. In other words, it\'s your property to use and enjoy.'
+            )
+          ),
+          _react2.default.createElement(
+            _Modal2.default.Footer,
+            null,
+            _react2.default.createElement(
+              _Button2.default,
+              { onClick: this.hideNoModal },
+              'Learn More'
+            )
+          )
+        )
+      );
+    }
+  }]);
+
+  return Slide3;
+})(_react2.default.Component);
+
+exports.default = Slide3;
+
+},{"react":289,"react-bootstrap/lib/Button":118,"react-bootstrap/lib/Modal":120}],293:[function(require,module,exports){
 'use strict';
 
 var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
@@ -25297,6 +25463,30 @@ var _slide2 = _interopRequireDefault(_slide);
 var _slide3 = require('./slide2');
 
 var _slide4 = _interopRequireDefault(_slide3);
+
+var _Slide = require('./Slide3');
+
+var _Slide2 = _interopRequireDefault(_Slide);
+
+var _slide5 = require('./slide10');
+
+var _slide6 = _interopRequireDefault(_slide5);
+
+var _slide7 = require('./slide11');
+
+var _slide8 = _interopRequireDefault(_slide7);
+
+var _slide9 = require('./slide12');
+
+var _slide10 = _interopRequireDefault(_slide9);
+
+var _slide11 = require('./slide13');
+
+var _slide12 = _interopRequireDefault(_slide11);
+
+var _slide13 = require('./slide14');
+
+var _slide14 = _interopRequireDefault(_slide13);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -25414,6 +25604,36 @@ var AppSlider = (function (_React$Component2) {
         _react2.default.createElement(
           'div',
           null,
+          _react2.default.createElement(_Slide2.default, null)
+        ),
+        _react2.default.createElement(
+          'div',
+          null,
+          _react2.default.createElement(_slide6.default, null)
+        ),
+        _react2.default.createElement(
+          'div',
+          null,
+          _react2.default.createElement(_slide8.default, null)
+        ),
+        _react2.default.createElement(
+          'div',
+          null,
+          _react2.default.createElement(_slide10.default, null)
+        ),
+        _react2.default.createElement(
+          'div',
+          null,
+          _react2.default.createElement(_slide12.default, null)
+        ),
+        _react2.default.createElement(
+          'div',
+          null,
+          _react2.default.createElement(_slide14.default, null)
+        ),
+        _react2.default.createElement(
+          'div',
+          null,
           _react2.default.createElement(
             'h3',
             null,
@@ -25428,24 +25648,6 @@ var AppSlider = (function (_React$Component2) {
             null,
             '4'
           )
-        ),
-        _react2.default.createElement(
-          'div',
-          null,
-          _react2.default.createElement(
-            'h3',
-            null,
-            '5'
-          )
-        ),
-        _react2.default.createElement(
-          'div',
-          null,
-          _react2.default.createElement(
-            'h3',
-            null,
-            '6'
-          )
         )
       );
     }
@@ -25456,7 +25658,7 @@ var AppSlider = (function (_React$Component2) {
 
 exports.default = AppContainer;
 
-},{"./slide1":294,"./slide2":295,"react":289,"react-slick":150}],293:[function(require,module,exports){
+},{"./Slide3":292,"./slide1":295,"./slide10":296,"./slide11":297,"./slide12":298,"./slide13":299,"./slide14":300,"./slide2":301,"react":289,"react-slick":150}],294:[function(require,module,exports){
 'use strict';
 
 var _react = require('react');
@@ -25478,7 +25680,7 @@ _reactDom2.default.render(_react2.default.createElement(_appContainer2.default, 
 
 //browserify -t [ babelify --presets [ es2015 react ] --plugins [ transform-class-properties  ]  ] src/main.js -o build/main.js
 
-},{"./appContainer":292,"react":289,"react-dom":129}],294:[function(require,module,exports){
+},{"./appContainer":293,"react":289,"react-dom":129}],295:[function(require,module,exports){
 'use strict';
 
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
@@ -25673,8 +25875,10 @@ var Slide1 = (function (_React$Component) {
 
 exports.default = Slide1;
 
-},{"react":289,"react-bootstrap/lib/Button":118,"react-bootstrap/lib/Modal":120}],295:[function(require,module,exports){
+},{"react":289,"react-bootstrap/lib/Button":118,"react-bootstrap/lib/Modal":120}],296:[function(require,module,exports){
 'use strict';
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
 var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
 
@@ -25686,6 +25890,14 @@ var _react = require('react');
 
 var _react2 = _interopRequireDefault(_react);
 
+var _Modal = require('react-bootstrap/lib/Modal');
+
+var _Modal2 = _interopRequireDefault(_Modal);
+
+var _Button = require('react-bootstrap/lib/Button');
+
+var _Button2 = _interopRequireDefault(_Button);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -25694,40 +25906,1161 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-var Slide1 = (function (_React$Component) {
-  _inherits(Slide1, _React$Component);
+var Slide10 = (function (_React$Component) {
+  _inherits(Slide10, _React$Component);
 
-  function Slide1() {
-    _classCallCheck(this, Slide1);
+  function Slide10() {
+    var _Object$getPrototypeO;
 
-    return _possibleConstructorReturn(this, Object.getPrototypeOf(Slide1).apply(this, arguments));
+    var _temp, _this, _ret;
+
+    _classCallCheck(this, Slide10);
+
+    for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {
+      args[_key] = arguments[_key];
+    }
+
+    return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_Object$getPrototypeO = Object.getPrototypeOf(Slide10)).call.apply(_Object$getPrototypeO, [this].concat(args))), _this), _this.state = {
+      showYes: false,
+      showNo: false,
+      clickHandler: _this.changeSlide
+    }, _this.slideOptions = {
+      dots: true,
+      lazyLoad: true,
+      infinite: true,
+      speed: 500,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      adaptiveHeight: false
+    }, _this.showYesModal = function () {
+      _this.setState({ showYes: true });
+    }, _this.hideYesModal = function () {
+      _this.setState({ showYes: false });
+      console.log("hey joe");
+      console.log(_this.props.nextSlide);
+      _this.props.nextSlide(_this.state.slideOptions);
+    }, _this.showNoModal = function () {
+      _this.setState({ showNo: true });
+    }, _this.hideNoModal = function () {
+      _this.setState({ showNo: false });
+    }, _temp), _possibleConstructorReturn(_this, _ret);
   }
 
-  _createClass(Slide1, [{
+  _createClass(Slide10, [{
     key: 'render',
     value: function render() {
       return _react2.default.createElement(
         'div',
-        { className: 'slide1' },
+        { className: 'slide10' },
         _react2.default.createElement(
           'div',
           { className: 'jumbotron' },
           _react2.default.createElement(
             'div',
             { className: 'container' },
-            'Slide Two!'
+            _react2.default.createElement('img', { src: 'images/SFCLT_logo_standard_FULL-1024x382.png', width: '60%' })
+          )
+        ),
+        _react2.default.createElement(
+          'div',
+          { className: 'containerContent' },
+          _react2.default.createElement(
+            'h3',
+            null,
+            'True or False: Buying a home through SFCLT is exactly the same as a traditional home purchase?'
+          ),
+          _react2.default.createElement(
+            'button',
+            { className: 'btn-yesNo', onClick: this.showYesModal },
+            'True'
+          ),
+          _react2.default.createElement(
+            'button',
+            { className: 'btn-yesNo', onClick: this.showNoModal },
+            'False'
+          )
+        ),
+        _react2.default.createElement(
+          _Modal2.default,
+          _extends({}, this.props, {
+            show: this.state.showYes,
+            onHide: this.hideYesModal,
+            dialogClassName: 'custom-modal'
+          }),
+          _react2.default.createElement(
+            _Modal2.default.Body,
+            null,
+            _react2.default.createElement(
+              'h2',
+              null,
+              'Sorry, that is incorrect. '
+            ),
+            _react2.default.createElement(
+              'h4',
+              null,
+              'While many things are similar, buying a home from SFCLT is different is some ways.'
+            ),
+            _react2.default.createElement(
+              'h4',
+              null,
+              'In particular, this is an opportunity to purchase a home for a reduced price.'
+            ),
+            _react2.default.createElement(
+              'h4',
+              null,
+              'Additionally, you would not own the land and you will share the equity when you resell'
+            ),
+            _react2.default.createElement(
+              'h4',
+              null,
+              'the home so it remains affordable for the next buyer.'
+            )
+          ),
+          _react2.default.createElement(
+            _Modal2.default.Footer,
+            null,
+            _react2.default.createElement(
+              _Button2.default,
+              { onClick: this.hideYesModal },
+              'Learn How'
+            )
+          )
+        ),
+        _react2.default.createElement(
+          _Modal2.default,
+          _extends({}, this.props, {
+            show: this.state.showNo,
+            onHide: this.hideNoModal,
+            dialogClassName: 'custom-modal'
+          }),
+          _react2.default.createElement(
+            _Modal2.default.Body,
+            null,
+            _react2.default.createElement(
+              'h2',
+              null,
+              'That is right!'
+            ),
+            _react2.default.createElement(
+              'h4',
+              null,
+              'While many things are similar, buying a home from SFCLT is different in some ways.'
+            ),
+            _react2.default.createElement(
+              'h4',
+              null,
+              'In particular, this is an opportunity to purchase a home for a reduced price.'
+            ),
+            _react2.default.createElement(
+              'h4',
+              null,
+              'Additionally, you would not own the land and you will share the equity when you resell'
+            ),
+            _react2.default.createElement(
+              'h4',
+              null,
+              'the home so it remains affordable for the next buyer.'
+            )
+          ),
+          _react2.default.createElement(
+            _Modal2.default.Footer,
+            null,
+            _react2.default.createElement(
+              _Button2.default,
+              { onClick: this.hideNoModal },
+              'Learn More'
+            )
           )
         )
       );
     }
   }]);
 
-  return Slide1;
+  return Slide10;
 })(_react2.default.Component);
 
-exports.default = Slide1;
+exports.default = Slide10;
 
-},{"react":289}],296:[function(require,module,exports){
+},{"react":289,"react-bootstrap/lib/Button":118,"react-bootstrap/lib/Modal":120}],297:[function(require,module,exports){
+'use strict';
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = require('react');
+
+var _react2 = _interopRequireDefault(_react);
+
+var _Modal = require('react-bootstrap/lib/Modal');
+
+var _Modal2 = _interopRequireDefault(_Modal);
+
+var _Button = require('react-bootstrap/lib/Button');
+
+var _Button2 = _interopRequireDefault(_Button);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var Slide11 = (function (_React$Component) {
+  _inherits(Slide11, _React$Component);
+
+  function Slide11() {
+    var _Object$getPrototypeO;
+
+    var _temp, _this, _ret;
+
+    _classCallCheck(this, Slide11);
+
+    for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {
+      args[_key] = arguments[_key];
+    }
+
+    return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_Object$getPrototypeO = Object.getPrototypeOf(Slide11)).call.apply(_Object$getPrototypeO, [this].concat(args))), _this), _this.state = {
+      showYes: false,
+      showNo: false,
+      clickHandler: _this.changeSlide
+    }, _this.slideOptions = {
+      dots: true,
+      lazyLoad: true,
+      infinite: true,
+      speed: 500,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      adaptiveHeight: false
+    }, _this.showYesModal = function () {
+      _this.setState({ showYes: true });
+    }, _this.hideYesModal = function () {
+      _this.setState({ showYes: false });
+      console.log("hey joe");
+      console.log(_this.props.nextSlide);
+      _this.props.nextSlide(_this.state.slideOptions);
+    }, _this.showNoModal = function () {
+      _this.setState({ showNo: true });
+    }, _this.hideNoModal = function () {
+      _this.setState({ showNo: false });
+    }, _temp), _possibleConstructorReturn(_this, _ret);
+  }
+
+  _createClass(Slide11, [{
+    key: 'render',
+    value: function render() {
+      return _react2.default.createElement(
+        'div',
+        { className: 'slide11' },
+        _react2.default.createElement(
+          'div',
+          { className: 'jumbotron' },
+          _react2.default.createElement(
+            'div',
+            { className: 'container' },
+            _react2.default.createElement('img', { src: 'images/SFCLT_logo_standard_FULL-1024x382.png', width: '60%' })
+          )
+        ),
+        _react2.default.createElement(
+          'div',
+          { className: 'containerContent' },
+          _react2.default.createElement(
+            'h3',
+            null,
+            'True or False: If you decide to sell your home, you can sell to any buyer at any price.'
+          ),
+          _react2.default.createElement(
+            'button',
+            { className: 'btn-yesNo', onClick: this.showYesModal },
+            'True'
+          ),
+          _react2.default.createElement(
+            'button',
+            { className: 'btn-yesNo', onClick: this.showNoModal },
+            'False'
+          )
+        ),
+        _react2.default.createElement(
+          _Modal2.default,
+          _extends({}, this.props, {
+            show: this.state.showYes,
+            onHide: this.hideYesModal,
+            dialogClassName: 'custom-modal'
+          }),
+          _react2.default.createElement(
+            _Modal2.default.Body,
+            null,
+            _react2.default.createElement(
+              'h2',
+              null,
+              'Sorry, that is incorrect.'
+            ),
+            _react2.default.createElement(
+              'h4',
+              null,
+              'If you decide to resell, you are restricted to sell to at an affordable price'
+            ),
+            _react2.default.createElement(
+              'h4',
+              null,
+              'to another to another income-quailfied buyer. SFCLT can help you find buyers'
+            ),
+            _react2.default.createElement(
+              'h4',
+              null,
+              'or even purchase the home back directly. This keeps the home affordable forever'
+            ),
+            _react2.default.createElement(
+              'h4',
+              null,
+              'and allows you to pass along the same opportunity you received to others!'
+            )
+          ),
+          _react2.default.createElement(
+            _Modal2.default.Footer,
+            null,
+            _react2.default.createElement(
+              _Button2.default,
+              { onClick: this.hideYesModal },
+              'Learn How'
+            )
+          )
+        ),
+        _react2.default.createElement(
+          _Modal2.default,
+          _extends({}, this.props, {
+            show: this.state.showNo,
+            onHide: this.hideNoModal,
+            dialogClassName: 'custom-modal'
+          }),
+          _react2.default.createElement(
+            _Modal2.default.Body,
+            null,
+            _react2.default.createElement(
+              'h2',
+              null,
+              'Correct!'
+            ),
+            _react2.default.createElement(
+              'h4',
+              null,
+              'If you decide to resell, you are restricted to sell at an affordable price'
+            ),
+            _react2.default.createElement(
+              'h4',
+              null,
+              'to another income-quailfied buyer. SFCLT can help you find buyers or even purchase'
+            ),
+            _react2.default.createElement(
+              'h4',
+              null,
+              'the home back directly. This keeps the home affordable forever and allows you to '
+            ),
+            _react2.default.createElement(
+              'h4',
+              null,
+              'pass along the same opportunity you received to others!'
+            )
+          ),
+          _react2.default.createElement(
+            _Modal2.default.Footer,
+            null,
+            _react2.default.createElement(
+              _Button2.default,
+              { onClick: this.hideNoModal },
+              'Learn More'
+            )
+          )
+        )
+      );
+    }
+  }]);
+
+  return Slide11;
+})(_react2.default.Component);
+
+exports.default = Slide11;
+
+},{"react":289,"react-bootstrap/lib/Button":118,"react-bootstrap/lib/Modal":120}],298:[function(require,module,exports){
+'use strict';
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = require('react');
+
+var _react2 = _interopRequireDefault(_react);
+
+var _Modal = require('react-bootstrap/lib/Modal');
+
+var _Modal2 = _interopRequireDefault(_Modal);
+
+var _Button = require('react-bootstrap/lib/Button');
+
+var _Button2 = _interopRequireDefault(_Button);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var Slide12 = (function (_React$Component) {
+  _inherits(Slide12, _React$Component);
+
+  function Slide12() {
+    var _Object$getPrototypeO;
+
+    var _temp, _this, _ret;
+
+    _classCallCheck(this, Slide12);
+
+    for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {
+      args[_key] = arguments[_key];
+    }
+
+    return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_Object$getPrototypeO = Object.getPrototypeOf(Slide12)).call.apply(_Object$getPrototypeO, [this].concat(args))), _this), _this.state = {
+      showYes: false,
+      showNo: false,
+      clickHandler: _this.changeSlide
+    }, _this.slideOptions = {
+      dots: true,
+      lazyLoad: true,
+      infinite: true,
+      speed: 500,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      adaptiveHeight: false
+    }, _this.showYesModal = function () {
+      _this.setState({ showYes: true });
+    }, _this.hideYesModal = function () {
+      _this.setState({ showYes: false });
+      console.log("hey joe");
+      console.log(_this.props.nextSlide);
+      _this.props.nextSlide(_this.state.slideOptions);
+    }, _this.showNoModal = function () {
+      _this.setState({ showNo: true });
+    }, _this.hideNoModal = function () {
+      _this.setState({ showNo: false });
+    }, _temp), _possibleConstructorReturn(_this, _ret);
+  }
+
+  _createClass(Slide12, [{
+    key: 'render',
+    value: function render() {
+      return _react2.default.createElement(
+        'div',
+        { className: 'slide12' },
+        _react2.default.createElement(
+          'div',
+          { className: 'jumbotron' },
+          _react2.default.createElement(
+            'div',
+            { className: 'container' },
+            _react2.default.createElement('img', { src: 'images/SFCLT_logo_standard_FULL-1024x382.png', width: '60%' })
+          )
+        ),
+        _react2.default.createElement(
+          'div',
+          { className: 'containerContent' },
+          _react2.default.createElement(
+            'h3',
+            null,
+            'True or False: When you sell sell your CLT home, you will receive ALL of the increase in market value.'
+          ),
+          _react2.default.createElement(
+            'button',
+            { className: 'btn-yesNo', onClick: this.showYesModal },
+            'True'
+          ),
+          _react2.default.createElement(
+            'button',
+            { className: 'btn-yesNo', onClick: this.showNoModal },
+            'False'
+          )
+        ),
+        _react2.default.createElement(
+          _Modal2.default,
+          _extends({}, this.props, {
+            show: this.state.showYes,
+            onHide: this.hideYesModal,
+            dialogClassName: 'custom-modal'
+          }),
+          _react2.default.createElement(
+            _Modal2.default.Body,
+            null,
+            _react2.default.createElement(
+              'h2',
+              null,
+              'Sorry,that is incorrect.'
+            ),
+            _react2.default.createElement(
+              'h4',
+              null,
+              'When you sell your CLT home, you will earn a fair portion of the growth in market value,'
+            ),
+            _react2.default.createElement(
+              'h4',
+              null,
+              'while the rest will remain with the home to keep it affordable. If you plan ahead, '
+            ),
+            _react2.default.createElement(
+              'h4',
+              null,
+              'you can also add money to your savings account each month by having redeced mortgage and tax payments!'
+            )
+          ),
+          _react2.default.createElement(
+            _Modal2.default.Footer,
+            null,
+            _react2.default.createElement(
+              _Button2.default,
+              { onClick: this.hideYesModal },
+              'Learn How'
+            )
+          )
+        ),
+        _react2.default.createElement(
+          _Modal2.default,
+          _extends({}, this.props, {
+            show: this.state.showNo,
+            onHide: this.hideNoModal,
+            dialogClassName: 'custom-modal'
+          }),
+          _react2.default.createElement(
+            _Modal2.default.Body,
+            null,
+            _react2.default.createElement(
+              'h2',
+              null,
+              'That is right!'
+            ),
+            _react2.default.createElement(
+              'h4',
+              null,
+              'When you sell your CLT home, you will earn a fair portion of the growth in market value,'
+            ),
+            _react2.default.createElement(
+              'h4',
+              null,
+              'while the rest will remain with the home to keep it afforable. If you plan ahead,'
+            ),
+            _react2.default.createElement(
+              'h4',
+              null,
+              'you can also add money to your savings account each month by having redeced mortgage'
+            ),
+            _react2.default.createElement(
+              'h4',
+              null,
+              'and tax payments!'
+            )
+          ),
+          _react2.default.createElement(
+            _Modal2.default.Footer,
+            null,
+            _react2.default.createElement(
+              _Button2.default,
+              { onClick: this.hideNoModal },
+              'Learn More'
+            )
+          )
+        )
+      );
+    }
+  }]);
+
+  return Slide12;
+})(_react2.default.Component);
+
+exports.default = Slide12;
+
+},{"react":289,"react-bootstrap/lib/Button":118,"react-bootstrap/lib/Modal":120}],299:[function(require,module,exports){
+'use strict';
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = require('react');
+
+var _react2 = _interopRequireDefault(_react);
+
+var _Modal = require('react-bootstrap/lib/Modal');
+
+var _Modal2 = _interopRequireDefault(_Modal);
+
+var _Button = require('react-bootstrap/lib/Button');
+
+var _Button2 = _interopRequireDefault(_Button);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var Slide13 = (function (_React$Component) {
+  _inherits(Slide13, _React$Component);
+
+  function Slide13() {
+    var _Object$getPrototypeO;
+
+    var _temp, _this, _ret;
+
+    _classCallCheck(this, Slide13);
+
+    for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {
+      args[_key] = arguments[_key];
+    }
+
+    return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_Object$getPrototypeO = Object.getPrototypeOf(Slide13)).call.apply(_Object$getPrototypeO, [this].concat(args))), _this), _this.state = {
+      showYes: false,
+      showNo: false,
+      clickHandler: _this.changeSlide
+    }, _this.slideOptions = {
+      dots: true,
+      lazyLoad: true,
+      infinite: true,
+      speed: 500,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      adaptiveHeight: false
+    }, _this.showYesModal = function () {
+      _this.setState({ showYes: true });
+    }, _this.hideYesModal = function () {
+      _this.setState({ showYes: false });
+      console.log("hey joe");
+      console.log(_this.props.nextSlide);
+      _this.props.nextSlide(_this.state.slideOptions);
+    }, _this.showNoModal = function () {
+      _this.setState({ showNo: true });
+    }, _this.hideNoModal = function () {
+      _this.setState({ showNo: false });
+    }, _temp), _possibleConstructorReturn(_this, _ret);
+  }
+
+  _createClass(Slide13, [{
+    key: 'render',
+    value: function render() {
+      return _react2.default.createElement(
+        'div',
+        { className: 'slide13' },
+        _react2.default.createElement(
+          'div',
+          { className: 'jumbotron' },
+          _react2.default.createElement(
+            'div',
+            { className: 'container' },
+            _react2.default.createElement('img', { src: 'images/SFCLT_logo_standard_FULL-1024x382.png', width: '60%' })
+          )
+        ),
+        _react2.default.createElement(
+          'div',
+          { className: 'containerContent' },
+          _react2.default.createElement(
+            'h3',
+            null,
+            'True or False: When you buy a home from SFCLT you automactically become a voting member of the organization.'
+          ),
+          _react2.default.createElement(
+            'button',
+            { className: 'btn-yesNo', onClick: this.showYesModal },
+            'True'
+          ),
+          _react2.default.createElement(
+            'button',
+            { className: 'btn-yesNo', onClick: this.showNoModal },
+            'False'
+          )
+        ),
+        _react2.default.createElement(
+          _Modal2.default,
+          _extends({}, this.props, {
+            show: this.state.showYes,
+            onHide: this.hideYesModal,
+            dialogClassName: 'custom-modal'
+          }),
+          _react2.default.createElement(
+            _Modal2.default.Body,
+            null,
+            _react2.default.createElement(
+              'h2',
+              null,
+              'Correct!'
+            ),
+            _react2.default.createElement(
+              'h4',
+              null,
+              'SFCLT homeowners automactically become members of the organization and are eligible to vote,'
+            ),
+            _react2.default.createElement(
+              'h4',
+              null,
+              'volunteer ir even sit on the board if elected.'
+            )
+          ),
+          _react2.default.createElement(
+            _Modal2.default.Footer,
+            null,
+            _react2.default.createElement(
+              _Button2.default,
+              { onClick: this.hideYesModal },
+              'Learn How'
+            )
+          )
+        ),
+        _react2.default.createElement(
+          _Modal2.default,
+          _extends({}, this.props, {
+            show: this.state.showNo,
+            onHide: this.hideNoModal,
+            dialogClassName: 'custom-modal'
+          }),
+          _react2.default.createElement(
+            _Modal2.default.Body,
+            null,
+            _react2.default.createElement(
+              'h2',
+              null,
+              'Sorry, that is incorrect.'
+            ),
+            _react2.default.createElement(
+              'h4',
+              null,
+              'SFCLT homeowners automactically become members of the organization and are eligible to vote,'
+            ),
+            _react2.default.createElement(
+              'h4',
+              null,
+              'volunteer or even sit on the board if elected.'
+            )
+          ),
+          _react2.default.createElement(
+            _Modal2.default.Footer,
+            null,
+            _react2.default.createElement(
+              _Button2.default,
+              { onClick: this.hideNoModal },
+              'Learn More'
+            )
+          )
+        )
+      );
+    }
+  }]);
+
+  return Slide13;
+})(_react2.default.Component);
+
+exports.default = Slide13;
+
+},{"react":289,"react-bootstrap/lib/Button":118,"react-bootstrap/lib/Modal":120}],300:[function(require,module,exports){
+'use strict';
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = require('react');
+
+var _react2 = _interopRequireDefault(_react);
+
+var _Modal = require('react-bootstrap/lib/Modal');
+
+var _Modal2 = _interopRequireDefault(_Modal);
+
+var _Button = require('react-bootstrap/lib/Button');
+
+var _Button2 = _interopRequireDefault(_Button);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var Slide14 = (function (_React$Component) {
+  _inherits(Slide14, _React$Component);
+
+  function Slide14() {
+    var _Object$getPrototypeO;
+
+    var _temp, _this, _ret;
+
+    _classCallCheck(this, Slide14);
+
+    for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {
+      args[_key] = arguments[_key];
+    }
+
+    return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_Object$getPrototypeO = Object.getPrototypeOf(Slide14)).call.apply(_Object$getPrototypeO, [this].concat(args))), _this), _this.state = {
+      showYes: false,
+      showNo: false,
+      clickHandler: _this.changeSlide
+    }, _this.slideOptions = {
+      dots: true,
+      lazyLoad: true,
+      infinite: true,
+      speed: 500,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      adaptiveHeight: false
+    }, _this.showYesModal = function () {
+      _this.setState({ showYes: true });
+    }, _this.hideYesModal = function () {
+      _this.setState({ showYes: false });
+      console.log("hey joe");
+      console.log(_this.props.nextSlide);
+      _this.props.nextSlide(_this.state.slideOptions);
+    }, _this.showNoModal = function () {
+      _this.setState({ showNo: true });
+    }, _this.hideNoModal = function () {
+      _this.setState({ showNo: false });
+    }, _temp), _possibleConstructorReturn(_this, _ret);
+  }
+
+  _createClass(Slide14, [{
+    key: 'render',
+    value: function render() {
+      return _react2.default.createElement(
+        'div',
+        { className: 'slide14' },
+        _react2.default.createElement(
+          'div',
+          { className: 'jumbotron' },
+          _react2.default.createElement(
+            'div',
+            { className: 'container' },
+            _react2.default.createElement('img', { src: 'images/SFCLT_logo_standard_FULL-1024x382.png', width: '60%' })
+          )
+        ),
+        _react2.default.createElement(
+          'div',
+          { className: 'container' },
+          _react2.default.createElement(
+            'h3',
+            null,
+            'Wrap-up slide'
+          ),
+          _react2.default.createElement(
+            'h4',
+            null,
+            _react2.default.createElement(
+              'a',
+              { href: 'http://southfloridaclt.org/contact/', target: '_blank' },
+              ' Contact us'
+            ),
+            ' to find out more.'
+          ),
+          _react2.default.createElement(
+            'button',
+            { className: 'btn-yesNo', onClick: this.showYesModal },
+            'Yes'
+          ),
+          _react2.default.createElement(
+            'button',
+            { className: 'btn-yesNo', onClick: this.showNoModal },
+            'No'
+          )
+        ),
+        _react2.default.createElement(
+          _Modal2.default,
+          _extends({}, this.props, {
+            show: this.state.showYes,
+            onHide: this.hideYesModal,
+            dialogClassName: 'custom-modal'
+          }),
+          _react2.default.createElement(
+            _Modal2.default.Body,
+            null,
+            _react2.default.createElement(
+              'h2',
+              null,
+              'We get it.'
+            ),
+            _react2.default.createElement(
+              'h4',
+              null,
+              'Purchasing a home takes a lot of hard work, especially in a high-cost market like South Florida.'
+            ),
+            _react2.default.createElement(
+              'h4',
+              null,
+              'Luckily, South Florida Community Land Trust (SFCLT) might have a solution for you.'
+            )
+          ),
+          _react2.default.createElement(
+            _Modal2.default.Footer,
+            null,
+            _react2.default.createElement(
+              _Button2.default,
+              { onClick: this.hideYesModal },
+              'Learn How'
+            )
+          )
+        ),
+        _react2.default.createElement(
+          _Modal2.default,
+          _extends({}, this.props, {
+            show: this.state.showNo,
+            onHide: this.hideNoModal,
+            dialogClassName: 'custom-modal'
+          }),
+          _react2.default.createElement(
+            _Modal2.default.Body,
+            null,
+            _react2.default.createElement(
+              'h2',
+              null,
+              'No Problem.'
+            ),
+            _react2.default.createElement(
+              'h4',
+              null,
+              'Owning a CLT home isn\'t for everyone. South Florida Community Land Trust (SFCLT) also offers afordable rentals.'
+            ),
+            _react2.default.createElement(
+              'h4',
+              null,
+              _react2.default.createElement(
+                'a',
+                { href: 'http://southfloridaclt.org/contact/', target: '_blank' },
+                ' Contact us'
+              ),
+              ' to find out more.'
+            ),
+            _react2.default.createElement(
+              'h4',
+              null,
+              'If you\'re still interested in learning more about SFCLT home ownership, keep reading to learn how SFCLT can help.'
+            )
+          ),
+          _react2.default.createElement(
+            _Modal2.default.Footer,
+            null,
+            _react2.default.createElement(
+              _Button2.default,
+              { onClick: this.hideNoModal },
+              'Learn More'
+            )
+          )
+        )
+      );
+    }
+  }]);
+
+  return Slide14;
+})(_react2.default.Component);
+
+exports.default = Slide14;
+
+},{"react":289,"react-bootstrap/lib/Button":118,"react-bootstrap/lib/Modal":120}],301:[function(require,module,exports){
+'use strict';
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = require('react');
+
+var _react2 = _interopRequireDefault(_react);
+
+var _Modal = require('react-bootstrap/lib/Modal');
+
+var _Modal2 = _interopRequireDefault(_Modal);
+
+var _Button = require('react-bootstrap/lib/Button');
+
+var _Button2 = _interopRequireDefault(_Button);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var Slide2 = (function (_React$Component) {
+  _inherits(Slide2, _React$Component);
+
+  function Slide2() {
+    var _Object$getPrototypeO;
+
+    var _temp, _this, _ret;
+
+    _classCallCheck(this, Slide2);
+
+    for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {
+      args[_key] = arguments[_key];
+    }
+
+    return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_Object$getPrototypeO = Object.getPrototypeOf(Slide2)).call.apply(_Object$getPrototypeO, [this].concat(args))), _this), _this.state = {
+      showYes: false,
+      showNo: false,
+      clickHandler: _this.changeSlide
+    }, _this.slideOptions = {
+      dots: true,
+      lazyLoad: true,
+      infinite: true,
+      speed: 500,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      adaptiveHeight: false
+    }, _this.showYesModal = function () {
+      _this.setState({ showYes: true });
+    }, _this.hideYesModal = function () {
+      _this.setState({ showYes: false });
+      console.log(_this.props.nextSlide);
+      _this.props.nextSlide(_this.state.slideOptions);
+    }, _this.showNoModal = function () {
+      _this.setState({ showNo: true });
+    }, _this.hideNoModal = function () {
+      _this.setState({ showNo: false });
+    }, _temp), _possibleConstructorReturn(_this, _ret);
+  }
+
+  _createClass(Slide2, [{
+    key: 'render',
+    value: function render() {
+      return _react2.default.createElement(
+        'div',
+        { className: 'slide2' },
+        _react2.default.createElement(
+          'div',
+          { className: 'jumbotron' },
+          _react2.default.createElement(
+            'div',
+            { className: 'container' },
+            _react2.default.createElement('img', { src: 'images/SFCLT_logo_standard_FULL-1024x382.png', width: '60%' })
+          )
+        ),
+        _react2.default.createElement(
+          'div',
+          { className: 'containerContent' },
+          _react2.default.createElement(
+            'h3',
+            null,
+            'South Florida CLT provides housing using the Community Land Trust(CLT) model. In a CLT, homes are sold at an affordable price to income qualified households.'
+          ),
+          _react2.default.createElement(
+            'button',
+            { className: 'btn-yesNo', onClick: this.showYesModal },
+            'Income Qualifed'
+          ),
+          _react2.default.createElement(
+            'button',
+            { className: 'btn-yesNo', onClick: this.showNoModal },
+            'Affordable Price'
+          )
+        ),
+        _react2.default.createElement(
+          _Modal2.default,
+          _extends({}, this.props, {
+            show: this.state.showYes,
+            onHide: this.hideYesModal,
+            dialogClassName: 'custom-modal'
+          }),
+          _react2.default.createElement(
+            _Modal2.default.Body,
+            null,
+            _react2.default.createElement(
+              'h2',
+              null,
+              'Income Qualifed:'
+            ),
+            _react2.default.createElement(
+              'h4',
+              null,
+              'South FLorida CLT reserves homes for low ,moderate, middle income households earning up to 120% of the Area Median Income. '
+            ),
+            _react2.default.createElement(
+              'h4',
+              null,
+              'At the end of this tutorial, look for a link to local income-limits to see if you qualify.'
+            )
+          ),
+          _react2.default.createElement(
+            _Modal2.default.Footer,
+            null,
+            _react2.default.createElement(
+              _Button2.default,
+              { onClick: this.hideYesModal },
+              'Learn How'
+            )
+          )
+        ),
+        _react2.default.createElement(
+          _Modal2.default,
+          _extends({}, this.props, {
+            show: this.state.showNo,
+            onHide: this.hideNoModal,
+            dialogClassName: 'custom-modal'
+          }),
+          _react2.default.createElement(
+            _Modal2.default.Body,
+            null,
+            _react2.default.createElement(
+              'h2',
+              null,
+              'Affordable Price:.'
+            ),
+            _react2.default.createElement(
+              'h4',
+              null,
+              'In a market where average rents are skyrocketing, most South Florida CLT homeowners spend between $500 and $1,000 dollars a month on their combined housing costs.'
+            )
+          ),
+          _react2.default.createElement(
+            _Modal2.default.Footer,
+            null,
+            _react2.default.createElement(
+              _Button2.default,
+              { onClick: this.hideNoModal },
+              'Learn More'
+            )
+          )
+        )
+      );
+    }
+  }]);
+
+  return Slide2;
+})(_react2.default.Component);
+
+exports.default = Slide2;
+
+},{"react":289,"react-bootstrap/lib/Button":118,"react-bootstrap/lib/Modal":120}],302:[function(require,module,exports){
 // shim for using process in browser
 
 var process = module.exports = {};
@@ -25820,4 +27153,4 @@ process.chdir = function (dir) {
 };
 process.umask = function() { return 0; };
 
-},{}]},{},[293]);
+},{}]},{},[294]);

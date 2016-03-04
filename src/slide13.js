@@ -47,7 +47,7 @@ class Slide13 extends React.Component {
             <img src='images/SFCLT_logo_standard_FULL-1024x382.png' width='60%' />
           </div>
         </div>
-        <div className='container'>
+        <div className='containerContent'>
           <h3>True or False: When you buy a home from SFCLT you automactically become a voting member of the organization.</h3>
           <button className='btn-yesNo' onClick={this.showYesModal}>True</button>
           <button className='btn-yesNo' onClick={this.showNoModal}>False</button>
