@@ -46,7 +46,7 @@ class Quiz extends React.Component {
     return (
       <div>
         <Sky />
-        <div id="grass"><img id="houseBottom" src="images/houseBottom.png" /></div>
+        <div id="grass"></div>
         <div id="slidesWrapper">
           { displayPrev() ? <ArrowButton id="prev" /> : null }
           <ul id="allSlides">

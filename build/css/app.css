@@ -15,24 +15,35 @@ h3 { font-size: 2em; }
 }
 #sky{
   position: relative;
-  min-height: 50vh;
+  min-height: 60vh;
 }
-#houseTop{
+#house{
   position: absolute;
   bottom: 0;
   left: 50%;
   transform: translate(-50%, 0);
   width: 80vw;
 }
-#houseBottom{
+#grassRowLeft{
+  position: absolute;
+  bottom: 0;
+  width: 80vw;
+}
+#grassRowRight{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 80vw;
+}
+/*#houseBottom{
   position: fixed;
   left: 50%;
   transform: translate(-50%, 0);
   width: 80vw;
-}
+}*/
 #grass{
   background-color: #a7ce3b;
-  min-height: 50vh;
+  min-height: 40vh;
 }
 #bottomSlidesWrapper{
   position: fixed;

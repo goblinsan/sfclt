@@ -19431,11 +19431,7 @@ var Quiz = function (_React$Component) {
         'div',
         null,
         _react2.default.createElement(_Sky2.default, null),
-        _react2.default.createElement(
-          'div',
-          { id: 'grass' },
-          _react2.default.createElement('img', { id: 'houseBottom', src: 'images/houseBottom.png' })
-        ),
+        _react2.default.createElement('div', { id: 'grass' }),
         _react2.default.createElement(
           'div',
           { id: 'slidesWrapper' },
@@ -19590,7 +19586,9 @@ var Sky = function (_React$Component) {
               _react2.default.createElement("img", { src: "images/cloud.png" })
             )
           ),
-          _react2.default.createElement("img", { id: "houseTop", src: "images/houseTop.png" })
+          _react2.default.createElement("img", { id: "grassRowLeft", src: "images/grassRow.png" }),
+          _react2.default.createElement("img", { id: "grassRowRight", src: "images/grassRow.png" }),
+          _react2.default.createElement("img", { id: "house", src: "images/mainHouse.png" })
         )
       );
     }
