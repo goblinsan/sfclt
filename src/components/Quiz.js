@@ -11,11 +11,11 @@ function getAllSlides() {
 }
 
 function displayPrev() {
-  return QuizFluxStore.getCurrentSlideId() != 0 && QuizFluxStore.getCurrentSlideId() != 1 ;
+  return QuizFluxStore.getCurrentSlideId() != 1 && QuizFluxStore.getCurrentSlideId() != 2 ;
 }
 
 function displayNext() {
-  return QuizFluxStore.getCurrentSlideId() != 0 ;
+  return QuizFluxStore.getCurrentSlideId() != 1 ;
 }
 
 class Quiz extends React.Component {

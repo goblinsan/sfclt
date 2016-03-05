@@ -4,26 +4,35 @@ import Slide1 from '../components/Slide1.es6';
 import Slide2 from '../components/Slide2.es6';
 import Slide3 from '../components/Slide3.es6';
 import AppConstants from '../constants/QuizConstants';
+import QuizActions from '../actions/QuizActions';
 import FluxStore from './FluxStore';
 
 var CHANGE_EVENT = 'change';
 
 let appState = {};
 
-var _slides = [<Slide1 />,<Slide2 />,<Slide3 />];
+var slides = [<Slide1 />,<Slide2 />,<Slide3 />];
+
+function loadSlideData(){
+  $.get("testScrape.html").done(function(dataHtml){
+    let slideData = $(dataHtml).find('#allSlides');
+    QuizActions.loadReturnedSlideData({actionType: 'slideDataLoad', loadedData: slideData});
+  });
+}
 
 class QuizFluxStore extends FluxStore {
   constructor() {
     super();
-    appState.currentSlide = 0;
+    appState.currentSlide = 1;
     appState.slideInMotion = false;
     appState.frameType = '';
     appState.moveDistance = 0;
     appState.yesNo = 'NO';
+    appState.slideData = loadSlideData();
   }
 
   state = {
-    currentSlide: 0,
+    currentSlide: 1,
   };
 
   setYesNoResponse(response){
@@ -44,27 +53,31 @@ class QuizFluxStore extends FluxStore {
 
   getCurrentSlide() {
     return (
-      _slides[appState.currentSlide]
+      slides[appState.currentSlide-1]
     );
   }
 
+  getSlideText(slideName){
+    return $(appState.slideData).find('#'+slideName).find('.slide_text').text();
+  }
+
   slideHasNext() {
-    return appState.currentSlide < (_slides.length - 1) ? true : false;
+    return appState.currentSlide < (slides.length - 1) ? true : false;
   }
 
   slideHasPrev() {
-    return appState.currentSlide > 0 ? true : false;
+    return appState.currentSlide > 1 ? true : false;
   }
 
   getNextSlide() {
     return (
-      _slides[appState.currentSlide+1]
+      slides[appState.currentSlide+1]
     );
   }
 
   getPrevSlide() {
     return (
-      _slides[appState.currentSlide-1]
+      slides[appState.currentSlide-1]
     );
   }
 
@@ -75,14 +88,13 @@ class QuizFluxStore extends FluxStore {
     });
   }
 
-
 }
 
 let quizFluxStoreInstance = new QuizFluxStore();
 
 quizFluxStoreInstance.dispatchToken = AppDispatcher.register(action => {
 
-  switch(action.moveTo) {
+  switch(action.actionType) {
     case AppConstants.GOTO_PREV:
       appState.currentSlide = appState.currentSlide-1;
       appState.slideInMotion = true;
@@ -93,14 +105,15 @@ quizFluxStoreInstance.dispatchToken = AppDispatcher.register(action => {
       appState.slideInMotion = true;
       appState.moveDistance = appState.moveDistance+300;
       break;
+    case 'slideDataLoad':
+      appState.slideData = action.loadedData;
+      break;
 
     default:
       return;
   }
 
-
   quizFluxStoreInstance.emitChange();
-
 });
 
 export default quizFluxStoreInstance;
