@@ -3,6 +3,8 @@
   <head>
     <meta charset="utf-8">
     <title>SFCLT Quiz</title>
+    <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/app.css" />
     <style>
       #slidesWrapper{
@@ -16,7 +18,7 @@
       #allSlides{
         position: absolute;
         left: 80px;
-        top: 5vh;
+        top: 2vh;
         display: inline-block;
         overflow: hidden;
         list-style-type: none;
@@ -30,10 +32,11 @@
       }
       .slideText{
         white-space: normal;
-        font-size: x-large;
         text-align: center;
+        font-family: 'Oswald', sans-serif;
+/*        font-size: x-large;
         transform: translate3d( 0, 0, 0);
-        -webkit-font-smoothing: antialiased;
+        -webkit-font-smoothing: antialiased;*/
       }
       #slide1{
       }
@@ -60,12 +63,12 @@
       #prev {
         position: absolute;
         left: 0px;
-        top: 7vh;
+        top: 12vh;
       }
       #next {
         position: absolute;
         right: 0px;
-        top: 7vh;
+        top: 12vh;
       }
       #yesNoButtons{
         min-width: 20vw;
@@ -79,8 +82,8 @@
         border-radius: 20px;
         border: 0;
         padding: 5px;
-        font-family: arial, sans-serif;
-        font-size: small;
+        font-family: 'Lato', sans-serif;
+        /*font-size: small;*/
         font-weight: bold;
         text-align: center;
         display: inline-block;
@@ -99,7 +102,18 @@
     <div id="appWrapper">
     <section id="quiz"></section>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="js/flowtype.js"></script>
     <script src="js/bundle.js"></script>
+    <script>
+      $('body').flowtype();
+      $('body').flowtype({
+         minFont   : 8,
+         maxFont   : 28
+      });
+      $('.actionButton').flowtype({
+         fontRatio : 10
+      });
+    </script>
     </div>
   </body>
 </html>
