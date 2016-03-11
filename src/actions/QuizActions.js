@@ -4,7 +4,7 @@ import AppConstants from '../constants/QuizConstants';
 
 var QuizActions = {
   loadReturnedSlideData(data){
-    AppDispatcher.dispatch({actionType: 'slideDataLoad', loadedData: data.loadedData});
+    AppDispatcher.dispatch({actionType: AppConstants.SLIDE_DATA_LOAD, loadedData: data.loadedData});
   },
   
   moveSlide(direction){

@@ -1,4 +1,5 @@
 import React from 'react';
+import Interactions from './Interactions.es6';
 
 class Sky extends React.Component {
 
@@ -27,6 +28,7 @@ class Sky extends React.Component {
           </div>
           <img id="grassRowLeft" src="images/grassRow.png" /><img id="grassRowRight" src="images/grassRow.png" />
           <img id="house" src="images/mainHouse.png" />
+          <Interactions />
         </div>
       </div>
     );

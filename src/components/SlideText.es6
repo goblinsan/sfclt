@@ -9,7 +9,7 @@ class SlideText extends React.Component {
   }
 
   componentDidMount(){
-    this.setState({slideText: QuizFluxStore.getSlideText(this.props.slideName)})
+    this.setState({slideText: QuizFluxStore.getSlideText('.slide_text')})
     QuizFluxStore.addChangeListener(this.onChange);
   }
 
@@ -18,13 +18,13 @@ class SlideText extends React.Component {
   }
 
   onChange() {
-    this.setState({slideText: QuizFluxStore.getSlideText(this.props.slideName)});
+    this.setState({slideText: QuizFluxStore.getSlideText('.slide_text')});
   }
 
   render() {
     return (
       <div className="slideText">
-        {this.state.slideText}
+        <div dangerouslySetInnerHTML={{__html: this.state.slideText}} />
       </div>
     );
   }

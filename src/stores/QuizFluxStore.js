@@ -1,8 +1,7 @@
 import React from 'react';
 import AppDispatcher from '../dispatcher/appDispatcher';
-import Slide1 from '../components/Slide1.es6';
-import Slide2 from '../components/Slide2.es6';
-import Slide3 from '../components/Slide3.es6';
+import Slide from '../components/Slide.es6';
+import Response from '../components/Response.es6';
 import AppConstants from '../constants/QuizConstants';
 import QuizActions from '../actions/QuizActions';
 import FluxStore from './FluxStore';
@@ -11,12 +10,29 @@ var CHANGE_EVENT = 'change';
 
 let appState = {};
 
-var slides = [<Slide1 />,<Slide2 />,<Slide3 />];
+var slides = [
+  <Slide slideName="slide1" guess={['NO', 'YES']} />,
+  <Response slideName="slide2" />,
+  <Slide slideName="slide3" />,
+  <Slide slideName="slide4" />,
+  <Slide slideName="slide5" />,
+  <Slide slideName="slide6" />,
+  <Slide slideName="slide7" />,
+  <Slide slideName="slide8" />,
+  <Slide slideName="slide9" />,
+  <Slide slideName="slide10" />,
+  <Slide slideName="slide11" guess={['TRUE', 'FALSE']} />,
+  <Response slideName="slide12" />,
+  <Slide slideName="slide13" guess={['TRUE', 'FALSE']} />,
+  <Response slideName="slide14" />,
+  <Slide slideName="slide15" guess={['TRUE', 'FALSE']} />,
+  <Response slideName="slide16" />,
+];
 
 function loadSlideData(){
   $.get("testScrape.html").done(function(dataHtml){
     let slideData = $(dataHtml).find('#allSlides');
-    QuizActions.loadReturnedSlideData({actionType: 'slideDataLoad', loadedData: slideData});
+    QuizActions.loadReturnedSlideData({actionType: AppConstants.SLIDE_DATA_LOAD, loadedData: slideData});
   });
 }
 
@@ -27,7 +43,7 @@ class QuizFluxStore extends FluxStore {
     appState.slideInMotion = false;
     appState.frameType = '';
     appState.moveDistance = 0;
-    appState.yesNo = 'NO';
+    appState.guess = 'NO';
     appState.slideData = loadSlideData();
   }
 
@@ -35,13 +51,13 @@ class QuizFluxStore extends FluxStore {
     currentSlide: 1,
   };
 
-  setYesNoResponse(response){
-    appState.yesNo = response;
+  setGuess(guess){
+    appState.guess = guess;
   }
 
-  getYesNoResponse() {
+  getGuess() {
     return (
-      appState.yesNo
+      appState.guess
     );
   }
 
@@ -57,12 +73,12 @@ class QuizFluxStore extends FluxStore {
     );
   }
 
-  getSlideText(slideName){
-    return $(appState.slideData).find('#'+slideName).find('.slide_text').text();
+  getSlideText(classSelector){
+    return $(appState.slideData).find('#slide'+appState.currentSlide).find(classSelector).html();
   }
 
   slideHasNext() {
-    return appState.currentSlide < (slides.length - 1) ? true : false;
+    return appState.currentSlide < (slides.length) ? true : false;
   }
 
   slideHasPrev() {
@@ -105,7 +121,7 @@ quizFluxStoreInstance.dispatchToken = AppDispatcher.register(action => {
       appState.slideInMotion = true;
       appState.moveDistance = appState.moveDistance+300;
       break;
-    case 'slideDataLoad':
+    case AppConstants.SLIDE_DATA_LOAD:
       appState.slideData = action.loadedData;
       break;
 

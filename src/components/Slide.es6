@@ -1,22 +1,18 @@
 import React from 'react';
-import QuizActions from '../actions/QuizActions';
-import AppConstants from '../constants/QuizConstants';
-import QuizFluxStore from '../stores/QuizFluxStore';
+import SlideText from './SlideText.es6';
+import GuessButtons from  './GuessButtons.es6'
 
 class Slide extends React.Component {
 
-  moveClick(direction) {
-    QuizActions.moveSlide(direction);
-  }
-
   render() {
     return (
-      <div>
-        <button onClick={this.moveClick.bind(this,AppConstants.GOTO_PREV)} disabled={!QuizFluxStore.slideHasNext()}>prev</button>
-        <button onClick={this.moveClick.bind(this,AppConstants.GOTO_NEXT)} disabled={!QuizFluxStore.slideHasNext() || QuizFluxStore.slideInMotion}>next</button>
-      </div>
+      <li id={this.props.slideName}>
+      <SlideText slideName={this.props.slideName} />
+      {this.props.guess ? <GuessButtons guess={this.props.guess}/> : null}
+      </li>
     );
   }
+
 }
 
 

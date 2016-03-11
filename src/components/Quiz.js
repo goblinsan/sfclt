@@ -15,7 +15,7 @@ function displayPrev() {
 }
 
 function displayNext() {
-  return QuizFluxStore.getCurrentSlideId() != 1 ;
+  return QuizFluxStore.getCurrentSlideId() != 1 && QuizFluxStore.slideHasNext();
 }
 
 class Quiz extends React.Component {
@@ -51,8 +51,6 @@ class Quiz extends React.Component {
           { displayPrev() ? <ArrowButton id="prev" /> : null }
           <ul id="allSlides">
             {this.state.currentSlide}
-            <li id="slide2">Slide 2</li>
-            <li id="slide3">Slide 3</li>
           </ul>
           { displayNext() ? <ArrowButton id="next" /> : null }
         </div>
