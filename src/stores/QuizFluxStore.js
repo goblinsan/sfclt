@@ -30,6 +30,8 @@ var slides = [
 ];
 
 function loadSlideData(){
+  //live site: /about-us/chase-partnership/
+  //text site: testScrape.html
   $.get("/about-us/chase-partnership/").done(function(dataHtml){
     let slideData = $(dataHtml).find('#allSlides');
     QuizActions.loadReturnedSlideData({actionType: AppConstants.SLIDE_DATA_LOAD, loadedData: slideData});

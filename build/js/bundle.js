@@ -19553,8 +19553,8 @@ var Interactions = function (_React$Component) {
       return _react2.default.createElement(
         'div',
         { id: 'interactionsContainer' },
-        _react2.default.createElement(_RollOver2.default, { icon: 'dollarIcon.png', slide: '3', itemNumber: '1', iconLocation: ['22vw', '35vh'], textPosition: 'top-left' }),
-        _react2.default.createElement(_RollOver2.default, { icon: 'priceTagIcon.png', slide: '3', itemNumber: '2', iconLocation: ['64vw', '30vh'], textPosition: 'right' }),
+        _react2.default.createElement(_RollOver2.default, { icon: 'MoneyButton.svg', slide: '3', itemNumber: '1', iconLocation: ['22vw', '35vh'], textPosition: 'top-left' }),
+        _react2.default.createElement(_RollOver2.default, { icon: 'PriceTagButton.svg', slide: '3', itemNumber: '2', iconLocation: ['64vw', '30vh'], textPosition: 'right' }),
         _react2.default.createElement(_Graphic2.default, { icon: 'peopleIcon.png', slide: '3', itemNumber: '3', iconLocation: ['28vw', '50vh'], relWidth: '4vw' }),
         _react2.default.createElement(_RollOver2.default, { icon: 'dollarIcon.png', slide: '7', itemNumber: '1', iconLocation: ['35vw', '30vh'], textPosition: 'left' }),
         _react2.default.createElement(_RollOver2.default, { icon: 'dollarIcon.png', slide: '7', itemNumber: '4', iconLocation: ['17vw', '45vh'], textPosition: 'top-left' }),
@@ -20145,7 +20145,7 @@ var Sky = function (_React$Component) {
           ),
           _react2.default.createElement('img', { id: 'grassRowLeft', src: 'images/grassRow.png' }),
           _react2.default.createElement('img', { id: 'grassRowRight', src: 'images/grassRow.png' }),
-          _react2.default.createElement('img', { id: 'house', src: 'images/mainHouse.png' }),
+          _react2.default.createElement('img', { id: 'house', src: 'images/House.svg' }),
           _react2.default.createElement(_Interactions2.default, null)
         )
       );
@@ -20424,6 +20424,8 @@ var appState = {};
 var slides = [_react2.default.createElement(_Slide2.default, { slideName: 'slide1', guess: ['NO', 'YES'] }), _react2.default.createElement(_Response2.default, { slideName: 'slide2' }), _react2.default.createElement(_Slide2.default, { slideName: 'slide3' }), _react2.default.createElement(_Slide2.default, { slideName: 'slide4' }), _react2.default.createElement(_Slide2.default, { slideName: 'slide5' }), _react2.default.createElement(_Slide2.default, { slideName: 'slide6' }), _react2.default.createElement(_Slide2.default, { slideName: 'slide7' }), _react2.default.createElement(_Slide2.default, { slideName: 'slide8' }), _react2.default.createElement(_Slide2.default, { slideName: 'slide9' }), _react2.default.createElement(_Slide2.default, { slideName: 'slide10' }), _react2.default.createElement(_Slide2.default, { slideName: 'slide11', guess: ['TRUE', 'FALSE'] }), _react2.default.createElement(_Response2.default, { slideName: 'slide12' }), _react2.default.createElement(_Slide2.default, { slideName: 'slide13', guess: ['TRUE', 'FALSE'] }), _react2.default.createElement(_Response2.default, { slideName: 'slide14' }), _react2.default.createElement(_Slide2.default, { slideName: 'slide15', guess: ['TRUE', 'FALSE'] }), _react2.default.createElement(_Response2.default, { slideName: 'slide16' })];
 
 function loadSlideData() {
+  //live site: /about-us/chase-partnership/
+  //text site: testScrape.html
   $.get("/about-us/chase-partnership/").done(function (dataHtml) {
     var slideData = $(dataHtml).find('#allSlides');
     _QuizActions2.default.loadReturnedSlideData({ actionType: _QuizConstants2.default.SLIDE_DATA_LOAD, loadedData: slideData });

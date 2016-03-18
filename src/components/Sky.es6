@@ -27,7 +27,7 @@ class Sky extends React.Component {
             <div className="cloud x16"><img src="images/cloud.png" /></div>
           </div>
           <img id="grassRowLeft" src="images/grassRow.png" /><img id="grassRowRight" src="images/grassRow.png" />
-          <img id="house" src="images/mainHouse.png" />
+          <img id="house" src="images/House.svg" />
           <Interactions />
         </div>
       </div>
