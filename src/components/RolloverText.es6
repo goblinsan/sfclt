@@ -1,33 +1,20 @@
 import React from 'react';
-import QuizFluxStore from '../stores/QuizFluxStore';
 
 class RolloverText extends React.Component {
-  constructor() {
-    super();
-    this.state = {rolloverText: ''};
-    this.onChange = this.onChange.bind(this);
-  }
 
-  componentDidMount(){
-    this.setState({rolloverText: QuizFluxStore.getSlideText('.rolloverText_'+this.props.itemId)})
-    QuizFluxStore.addChangeListener(this.onChange);
-    $('.rolloverText').flowtype({
-         fontRatio : 14
-    });
-  }
-
-  componentWillUnmount() {
-    QuizFluxStore.removeChangeListener(this.onChange);
-  }
-
-  onChange() {
-    this.setState({rolloverText: QuizFluxStore.getSlideText('.rolloverText_'+this.props.itemId)});
+  getText(itemId){
+    let textIndex = itemId - 1;
+    if (this.props.text.length >= textIndex){
+      return $(this.props.text[textIndex]).html();
+    } else {
+      return '';
+    }
   }
 
   render() {
     return (
       <div id={"rolloverText_"+ this.props.rolloverId} className="rolloverText" style={this.props.style}>
-        <div dangerouslySetInnerHTML={{__html: this.state.rolloverText}} />
+        <div dangerouslySetInnerHTML={{__html: this.getText(this.props.itemId)}} />
       </div>
     );
   }

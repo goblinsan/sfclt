@@ -2,31 +2,20 @@ import React from 'react';
 import QuizFluxStore from '../stores/QuizFluxStore';
 
 class Graphic extends React.Component {
-  constructor() {
-    super();
-    this.state = {currentSlide: ''};
-    this.onChange = this.onChange.bind(this);
-  }
-
-  componentDidMount(){
-    this.setState({currentSlide: QuizFluxStore.getCurrentSlideId()})
-    QuizFluxStore.addChangeListener(this.onChange);
-  }
-
-  componentWillUnmount() {
-    QuizFluxStore.removeChangeListener(this.onChange);
-  }
-
-  onChange() {
-    this.setState({currentSlide: QuizFluxStore.getCurrentSlideId()});
-  }
 
   isVisible(){
-    if(this.state.currentSlide == this.props.slide){
+    if(this.props.currentSlide == this.props.slide){
       return 'block';
     } else{
       return 'none';
     }
+  }
+
+  verticalPosition(){
+    //.05 is the ratio of the grass height to the width of the house.svg
+    let grassHeight = $('#house').width() * .05 ;
+    let relativeHeight = this.props.iconLocation[1] * $('#house').height();
+    return grassHeight + relativeHeight;
   }
 
   render() {
@@ -34,11 +23,12 @@ class Graphic extends React.Component {
     var boxLocation = {
       position: 'absolute',
       left: this.props.iconLocation[0],
-      top: this.props.iconLocation[1],
+      bottom: this.verticalPosition(),
       display: this.isVisible()
     };
     var iconStyle = {
       position: 'absolute',
+      bottom: 0,
       width: this.props.relWidth
     };
     return (

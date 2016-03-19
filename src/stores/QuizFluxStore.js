@@ -79,6 +79,10 @@ class QuizFluxStore extends FluxStore {
     return $(appState.slideData).find('#slide'+appState.currentSlide).find(classSelector).html();
   }
 
+  getRolloverText(classSelector){
+    return $(appState.slideData).find('#slide'+appState.currentSlide).find(classSelector);
+  }
+
   slideHasNext() {
     return appState.currentSlide < (slides.length) ? true : false;
   }
