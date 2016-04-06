@@ -19709,7 +19709,25 @@ var Interactions = function (_React$Component) {
         _react2.default.createElement(_RollOver2.default, { icon: 'dollarIcon.png', slide: '7', itemNumber: '4', iconLocation: ['17vw', .1], textPosition: 'top-left', currentSlide: this.state.currentSlide, text: this.state.rolloverText }),
         _react2.default.createElement(_RollOver2.default, { icon: 'dollarIcon.png', slide: '7', itemNumber: '5', iconLocation: ['82vw', .2], textPosition: 'top-left', currentSlide: this.state.currentSlide, text: this.state.rolloverText }),
         _react2.default.createElement(_RollOver2.default, { icon: 'dollarIcon.png', slide: '7', itemNumber: '3', iconLocation: ['55vw', .7], textPosition: 'left', currentSlide: this.state.currentSlide, text: this.state.rolloverText }),
-        _react2.default.createElement(_RollOver2.default, { icon: 'dollarIcon.png', slide: '7', itemNumber: '2', iconLocation: ['65vw', .8], textPosition: 'right', currentSlide: this.state.currentSlide, text: this.state.rolloverText })
+        _react2.default.createElement(_RollOver2.default, { icon: 'dollarIcon.png', slide: '7', itemNumber: '2', iconLocation: ['65vw', .8], textPosition: 'right', currentSlide: this.state.currentSlide, text: this.state.rolloverText }),
+        _react2.default.createElement(_RollOver2.default, { icon: 'AffordabilityButton.svg', slide: '8', itemNumber: '1', iconLocation: ['23.5vw', .2], textPosition: 'top-left', currentSlide: this.state.currentSlide, text: this.state.rolloverText }),
+        _react2.default.createElement(_Graphic2.default, { icon: 'SellerBuyerFamilyIcon.svg', slide: '8', itemNumber: '2', iconLocation: ['21vw', 0], relWidth: '13vw', currentSlide: this.state.currentSlide }),
+        _react2.default.createElement(_RollOver2.default, { icon: 'SharedEquityButton.svg', slide: '9', itemNumber: '1', iconLocation: ['23.5vw', .25], textPosition: 'top-left', currentSlide: this.state.currentSlide, text: this.state.rolloverText }),
+        _react2.default.createElement(_Graphic2.default, { icon: 'peopleIcon.png', slide: '9', itemNumber: '2', iconLocation: ['24vw', 0], relWidth: '4vw', currentSlide: this.state.currentSlide }),
+        _react2.default.createElement(_Graphic2.default, { icon: 'peopleIcon.png', slide: '10', itemNumber: '1', iconLocation: ['24vw', 0], relWidth: '4vw', currentSlide: this.state.currentSlide }),
+        _react2.default.createElement(_Graphic2.default, { icon: 'peopleIcon.png', slide: '11', itemNumber: '1', iconLocation: ['24vw', 0], relWidth: '4vw', currentSlide: this.state.currentSlide }),
+        _react2.default.createElement(_Graphic2.default, { icon: 'peopleIcon.png', slide: '12', itemNumber: '1', iconLocation: ['24vw', 0], relWidth: '4vw', currentSlide: this.state.currentSlide }),
+        _react2.default.createElement(_RollOver2.default, { icon: 'SharedEquityIconBW.svg', slide: '12', itemNumber: '2', iconLocation: ['20.5vw', .2], textPosition: 'top-left', currentSlide: this.state.currentSlide, text: this.state.rolloverText }),
+        _react2.default.createElement(_RollOver2.default, { icon: 'PriceTagIconBW.svg', slide: '12', itemNumber: '3', iconLocation: ['65vw', .8], textPosition: 'top-right', currentSlide: this.state.currentSlide, text: this.state.rolloverText }),
+        _react2.default.createElement(_RollOver2.default, { icon: 'LandOutline.svg', slide: '12', itemNumber: '4', iconLocation: ['55vw', .1], textPosition: 'top', relWidth: '40vw', currentSlide: this.state.currentSlide, text: this.state.rolloverText }),
+        _react2.default.createElement(_Graphic2.default, { icon: 'peopleIcon.png', slide: '13', itemNumber: '1', iconLocation: ['24vw', 0], relWidth: '4vw', currentSlide: this.state.currentSlide }),
+        _react2.default.createElement(_Graphic2.default, { icon: 'peopleIcon.png', slide: '14', itemNumber: '1', iconLocation: ['24vw', 0], relWidth: '4vw', currentSlide: this.state.currentSlide }),
+        _react2.default.createElement(_RollOver2.default, { icon: 'SharedEquityIconBW.svg', slide: '14', itemNumber: '2', iconLocation: ['20.5vw', .2], textPosition: 'top-left', currentSlide: this.state.currentSlide, text: this.state.rolloverText }),
+        _react2.default.createElement(_RollOver2.default, { icon: 'PriceTagIconBW.svg', slide: '14', itemNumber: '3', iconLocation: ['65vw', .8], textPosition: 'top-right', currentSlide: this.state.currentSlide, text: this.state.rolloverText }),
+        _react2.default.createElement(_Graphic2.default, { icon: 'peopleIcon.png', slide: '15', itemNumber: '1', iconLocation: ['24vw', 0], relWidth: '4vw', currentSlide: this.state.currentSlide }),
+        _react2.default.createElement(_Graphic2.default, { icon: 'peopleIcon.png', slide: '16', itemNumber: '1', iconLocation: ['24vw', 0], relWidth: '4vw', currentSlide: this.state.currentSlide }),
+        _react2.default.createElement(_RollOver2.default, { icon: 'CommunityIconBW.svg', slide: '16', itemNumber: '2', iconLocation: ['20.5vw', .2], textPosition: 'top-left', currentSlide: this.state.currentSlide, text: this.state.rolloverText }),
+        _react2.default.createElement(_Graphic2.default, { icon: 'peopleIcon.png', slide: '17', itemNumber: '1', iconLocation: ['24vw', 0], relWidth: '4vw', currentSlide: this.state.currentSlide })
       );
     }
   }]);
@@ -20186,12 +20204,12 @@ var Sky = function (_React$Component) {
             _react2.default.createElement(
               'div',
               { className: 'cloud x1' },
-              _react2.default.createElement('img', { src: 'images/cloud.png' })
+              _react2.default.createElement('img', { src: 'images/Clouds.svg' })
             ),
             _react2.default.createElement(
               'div',
               { className: 'cloud x2' },
-              _react2.default.createElement('img', { src: 'images/cloud.png' })
+              _react2.default.createElement('img', { src: 'images/Clouds.svg' })
             ),
             _react2.default.createElement(
               'div',
@@ -20206,7 +20224,7 @@ var Sky = function (_React$Component) {
             _react2.default.createElement(
               'div',
               { className: 'cloud x5' },
-              _react2.default.createElement('img', { src: 'images/cloud.png' })
+              _react2.default.createElement('img', { src: 'images/Clouds.svg' })
             ),
             _react2.default.createElement(
               'div',
@@ -20246,22 +20264,22 @@ var Sky = function (_React$Component) {
             _react2.default.createElement(
               'div',
               { className: 'cloud x13' },
-              _react2.default.createElement('img', { src: 'images/cloud.png' })
+              _react2.default.createElement('img', { src: 'images/Clouds.svg' })
             ),
             _react2.default.createElement(
               'div',
               { className: 'cloud x14' },
-              _react2.default.createElement('img', { src: 'images/cloud.png' })
+              _react2.default.createElement('img', { src: 'images/Clouds.svg' })
             ),
             _react2.default.createElement(
               'div',
               { className: 'cloud x15' },
-              _react2.default.createElement('img', { src: 'images/cloud.png' })
+              _react2.default.createElement('img', { src: 'images/Clouds.svg' })
             ),
             _react2.default.createElement(
               'div',
               { className: 'cloud x16' },
-              _react2.default.createElement('img', { src: 'images/cloud.png' })
+              _react2.default.createElement('img', { src: 'images/Clouds.svg' })
             )
           ),
           _react2.default.createElement('img', { id: 'grassRowLeft', src: 'images/grassRow.png' }),
@@ -20542,7 +20560,7 @@ var CHANGE_EVENT = 'change';
 
 var appState = {};
 
-var slides = [_react2.default.createElement(_Slide2.default, { slideName: 'slide1', guess: ['NO', 'YES'] }), _react2.default.createElement(_Response2.default, { slideName: 'slide2' }), _react2.default.createElement(_Slide2.default, { slideName: 'slide3' }), _react2.default.createElement(_Slide2.default, { slideName: 'slide4' }), _react2.default.createElement(_Slide2.default, { slideName: 'slide5' }), _react2.default.createElement(_Slide2.default, { slideName: 'slide6' }), _react2.default.createElement(_Slide2.default, { slideName: 'slide7' }), _react2.default.createElement(_Slide2.default, { slideName: 'slide8' }), _react2.default.createElement(_Slide2.default, { slideName: 'slide9' }), _react2.default.createElement(_Slide2.default, { slideName: 'slide10' }), _react2.default.createElement(_Slide2.default, { slideName: 'slide11', guess: ['TRUE', 'FALSE'] }), _react2.default.createElement(_Response2.default, { slideName: 'slide12' }), _react2.default.createElement(_Slide2.default, { slideName: 'slide13', guess: ['TRUE', 'FALSE'] }), _react2.default.createElement(_Response2.default, { slideName: 'slide14' }), _react2.default.createElement(_Slide2.default, { slideName: 'slide15', guess: ['TRUE', 'FALSE'] }), _react2.default.createElement(_Response2.default, { slideName: 'slide16' })];
+var slides = [_react2.default.createElement(_Slide2.default, { slideName: 'slide1', guess: ['NO', 'YES'] }), _react2.default.createElement(_Response2.default, { slideName: 'slide2' }), _react2.default.createElement(_Slide2.default, { slideName: 'slide3' }), _react2.default.createElement(_Slide2.default, { slideName: 'slide4' }), _react2.default.createElement(_Slide2.default, { slideName: 'slide5' }), _react2.default.createElement(_Slide2.default, { slideName: 'slide6' }), _react2.default.createElement(_Slide2.default, { slideName: 'slide7' }), _react2.default.createElement(_Slide2.default, { slideName: 'slide8' }), _react2.default.createElement(_Slide2.default, { slideName: 'slide9' }), _react2.default.createElement(_Slide2.default, { slideName: 'slide10' }), _react2.default.createElement(_Slide2.default, { slideName: 'slide11', guess: ['TRUE', 'FALSE'] }), _react2.default.createElement(_Response2.default, { slideName: 'slide12' }), _react2.default.createElement(_Slide2.default, { slideName: 'slide13', guess: ['TRUE', 'FALSE'] }), _react2.default.createElement(_Response2.default, { slideName: 'slide14' }), _react2.default.createElement(_Slide2.default, { slideName: 'slide15', guess: ['TRUE', 'FALSE'] }), _react2.default.createElement(_Response2.default, { slideName: 'slide16' }), _react2.default.createElement(_Slide2.default, { slideName: 'slide17' })];
 
 function loadSlideData() {
   //live site: /about-us/chase-partnership/
@@ -20749,18 +20767,11 @@ EventEmitter.prototype.emit = function(type) {
         break;
       // slower
       default:
-        len = arguments.length;
-        args = new Array(len - 1);
-        for (i = 1; i < len; i++)
-          args[i - 1] = arguments[i];
+        args = Array.prototype.slice.call(arguments, 1);
         handler.apply(this, args);
     }
   } else if (isObject(handler)) {
-    len = arguments.length;
-    args = new Array(len - 1);
-    for (i = 1; i < len; i++)
-      args[i - 1] = arguments[i];
-
+    args = Array.prototype.slice.call(arguments, 1);
     listeners = handler.slice();
     len = listeners.length;
     for (i = 0; i < len; i++)
@@ -20798,7 +20809,6 @@ EventEmitter.prototype.addListener = function(type, listener) {
 
   // Check for listener leak
   if (isObject(this._events[type]) && !this._events[type].warned) {
-    var m;
     if (!isUndefined(this._maxListeners)) {
       m = this._maxListeners;
     } else {
@@ -20920,7 +20930,7 @@ EventEmitter.prototype.removeAllListeners = function(type) {
 
   if (isFunction(listeners)) {
     this.removeListener(type, listeners);
-  } else {
+  } else if (listeners) {
     // LIFO order
     while (listeners.length)
       this.removeListener(type, listeners[listeners.length - 1]);
@@ -20941,15 +20951,20 @@ EventEmitter.prototype.listeners = function(type) {
   return ret;
 };
 
+EventEmitter.prototype.listenerCount = function(type) {
+  if (this._events) {
+    var evlistener = this._events[type];
+
+    if (isFunction(evlistener))
+      return 1;
+    else if (evlistener)
+      return evlistener.length;
+  }
+  return 0;
+};
+
 EventEmitter.listenerCount = function(emitter, type) {
-  var ret;
-  if (!emitter._events || !emitter._events[type])
-    ret = 0;
-  else if (isFunction(emitter._events[type]))
-    ret = 1;
-  else
-    ret = emitter._events[type].length;
-  return ret;
+  return emitter.listenerCount(type);
 };
 
 function isFunction(arg) {

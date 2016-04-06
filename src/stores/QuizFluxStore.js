@@ -27,6 +27,7 @@ var slides = [
   <Response slideName="slide14" />,
   <Slide slideName="slide15" guess={['TRUE', 'FALSE']} />,
   <Response slideName="slide16" />,
+  <Slide slideName="slide17" />,
 ];
 
 function loadSlideData(){
