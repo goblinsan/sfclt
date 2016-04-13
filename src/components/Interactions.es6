@@ -46,18 +46,38 @@ class Interactions extends React.Component {
   render() {
     return (
       <div id="interactionsContainer">
+      
+        <Graphic icon="SFCLT-logo.svg" slide="1" itemNumber="1" iconLocation={['4vw',.55]} relWidth='28vw' currentSlide={this.state.currentSlide} />
+        <Graphic icon="SFCLT-logo.svg" slide="2" itemNumber="1" iconLocation={['4vw',.55]} relWidth='28vw' currentSlide={this.state.currentSlide} />
+        <Graphic icon="SFCLT-logo.svg" slide="3" itemNumber="4" iconLocation={['4vw',.55]} relWidth='28vw' currentSlide={this.state.currentSlide} />
+
+
         <RollOver icon="MoneyButton.svg" slide="3" itemNumber="1" iconLocation={['22vw',.2]} textPosition="top-left" currentSlide={this.state.currentSlide} text={this.state.rolloverText} />
         <RollOver icon="PriceTagButton.svg" slide="3" itemNumber="2" iconLocation={['64vw',.4]} textPosition="right" currentSlide={this.state.currentSlide} text={this.state.rolloverText} />
         <Graphic icon="peopleIcon.png" slide="3" itemNumber="3" iconLocation={['28vw',0]} relWidth='4vw' currentSlide={this.state.currentSlide} />
-        <RollOver icon="dollarIcon.png" slide="7" itemNumber="1" iconLocation={['35vw',.5]} textPosition="left" currentSlide={this.state.currentSlide} text={this.state.rolloverText} />
-        <RollOver icon="dollarIcon.png" slide="7" itemNumber="4" iconLocation={['17vw',.1]} textPosition="top-left" currentSlide={this.state.currentSlide} text={this.state.rolloverText} />
-        <RollOver icon="dollarIcon.png" slide="7" itemNumber="5" iconLocation={['82vw',.2]} textPosition="top-left" currentSlide={this.state.currentSlide} text={this.state.rolloverText} />
-        <RollOver icon="dollarIcon.png" slide="7" itemNumber="3" iconLocation={['55vw',.7]} textPosition="left" currentSlide={this.state.currentSlide} text={this.state.rolloverText} />
-        <RollOver icon="dollarIcon.png" slide="7" itemNumber="2" iconLocation={['65vw',.8]} textPosition="right" currentSlide={this.state.currentSlide} text={this.state.rolloverText} />
+
+        <Graphic icon="LandOutline.svg" slide="4" itemNumber="1" iconLocation={['18vw',-.2]} relWidth='65vw' currentSlide={this.state.currentSlide} />
+        <Graphic icon="HouseOutline.svg" slide="5" itemNumber="1" iconLocation={['38vw',0]} relWidth='31.5vw' currentSlide={this.state.currentSlide} />
+        <Graphic icon="PriceTagButton.svg" slide="5" itemNumber="2" iconLocation={['65vw',.35]} relWidth='5vw' currentSlide={this.state.currentSlide} />
+        <Graphic icon="FamilyLandIcon.svg" slide="6" itemNumber="1" iconLocation={['53vw',-.23]} relWidth='17vw' currentSlide={this.state.currentSlide} />
+
+        <Graphic icon="CommunityPeopleIcon.svg" slide="7" itemNumber="6" iconLocation={['81vw',0]} relWidth='10vw' currentSlide={this.state.currentSlide} />
+        <Graphic icon="peopleIcon.png" slide="7" itemNumber="7" iconLocation={['27vw',0]} relWidth='4vw' currentSlide={this.state.currentSlide} />
+        
+        <RollOver icon="AffordabilityButton.svg" slide="7" itemNumber="1" iconLocation={['35vw',.5]} textPosition="left" currentSlide={this.state.currentSlide} text={this.state.rolloverText} />
+        <RollOver icon="SupportButton.svg" slide="7" itemNumber="4" iconLocation={['17vw',.1]} textPosition="top-left" currentSlide={this.state.currentSlide} text={this.state.rolloverText} />
+        <RollOver icon="CommunityButton.svg" slide="7" itemNumber="5" iconLocation={['82vw',.2]} textPosition="top-left" currentSlide={this.state.currentSlide} text={this.state.rolloverText} />
+        <RollOver icon="StabilityButton.svg" slide="7" itemNumber="3" iconLocation={['55vw',.7]} textPosition="left" currentSlide={this.state.currentSlide} text={this.state.rolloverText} />
+        <RollOver icon="EquityButton.svg" slide="7" itemNumber="2" iconLocation={['65vw',.8]} textPosition="right" currentSlide={this.state.currentSlide} text={this.state.rolloverText} />
         <RollOver icon="AffordabilityButton.svg" slide="8" itemNumber="1" iconLocation={['23.5vw',.2]} textPosition="top-left" currentSlide={this.state.currentSlide} text={this.state.rolloverText} />
         <Graphic icon="SellerBuyerFamilyIcon.svg" slide="8" itemNumber="2" iconLocation={['21vw',0]} relWidth='13vw' currentSlide={this.state.currentSlide} />
         <RollOver icon="SharedEquityButton.svg" slide="9" itemNumber="1" iconLocation={['23.5vw',.25]} textPosition="top-left" currentSlide={this.state.currentSlide} text={this.state.rolloverText} />
+       
+        
         <Graphic icon="peopleIcon.png" slide="9" itemNumber="2" iconLocation={['24vw',0]} relWidth='4vw' currentSlide={this.state.currentSlide} />
+
+       
+
         <Graphic icon="peopleIcon.png" slide="10" itemNumber="1" iconLocation={['24vw',0]} relWidth='4vw' currentSlide={this.state.currentSlide} />
         <Graphic icon="peopleIcon.png" slide="11" itemNumber="1" iconLocation={['24vw',0]} relWidth='4vw' currentSlide={this.state.currentSlide} />
         <Graphic icon="peopleIcon.png" slide="12" itemNumber="1" iconLocation={['24vw',0]} relWidth='4vw' currentSlide={this.state.currentSlide} />
