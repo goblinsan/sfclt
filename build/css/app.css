@@ -26,12 +26,12 @@ h3 { font-size: 2em; }
 }
 #grassRowLeft{
   position: absolute;
-  bottom: 0;
+  bottom: -1px;
   width: 80vw;
 }
 #grassRowRight{
   position: absolute;
-  bottom: 0;
+  bottom: -1px;
   right: 0;
   width: 80vw;
 }

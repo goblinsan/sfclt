@@ -13,9 +13,18 @@ class Graphic extends React.Component {
 
   verticalPosition(){
     //.05 is the ratio of the grass height to the width of the house.svg
-    let grassHeight = $('#house').width() * .05 ;
-    let relativeHeight = this.props.iconLocation[1] * $('#house').height();
-    return grassHeight + relativeHeight;
+    if (this.props.initHouseSize != undefined) {
+      let heightVal = this.props.initHouseSize[1];
+      if (heightVal == 0) {
+        heightVal = this.props.initHouseSize[0] / 3.3689;
+      }
+      let grassHeight = $('#house').width() * .05 ;
+      let relativeHeight = this.props.iconLocation[1] * heightVal;
+      return grassHeight + relativeHeight;
+    } else {
+      return 300;
+    }
+
   }
 
   render() {
