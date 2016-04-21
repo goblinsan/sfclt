@@ -19723,37 +19723,37 @@ var Interactions = function (_React$Component) {
         _react2.default.createElement(_Graphic2.default, { icon: 'SFCLT-logo.svg', slide: '3', itemNumber: '4', iconLocation: ['4vw', .55], initHouseSize: this.state.houseSize, relWidth: '28vw', currentSlide: this.state.currentSlide }),
         _react2.default.createElement(_RollOver2.default, { icon: 'MoneyButton.svg', slide: '3', itemNumber: '1', iconLocation: ['22vw', .2], textPosition: 'top-left', currentSlide: this.state.currentSlide, text: this.state.rolloverText }),
         _react2.default.createElement(_RollOver2.default, { icon: 'PriceTagButton.svg', slide: '3', itemNumber: '2', iconLocation: ['64vw', .4], textPosition: 'right', currentSlide: this.state.currentSlide, text: this.state.rolloverText }),
-        _react2.default.createElement(_Graphic2.default, { icon: 'peopleIcon.png', slide: '3', itemNumber: '3', iconLocation: ['28vw', 0], initHouseSize: this.state.houseSize, relWidth: '4vw', currentSlide: this.state.currentSlide }),
+        _react2.default.createElement(_Graphic2.default, { icon: 'ManWomanIcon.svg', slide: '3', itemNumber: '3', iconLocation: ['28vw', 0], initHouseSize: this.state.houseSize, relWidth: '4vw', currentSlide: this.state.currentSlide }),
         _react2.default.createElement(_Graphic2.default, { icon: 'LandOutline.svg', slide: '4', itemNumber: '1', iconLocation: ['18vw', -.2], initHouseSize: this.state.houseSize, relWidth: '65vw', currentSlide: this.state.currentSlide }),
         _react2.default.createElement(_Graphic2.default, { icon: 'HouseOutline.svg', slide: '5', itemNumber: '1', iconLocation: ['38vw', 0], initHouseSize: this.state.houseSize, relWidth: '31.5vw', currentSlide: this.state.currentSlide }),
         _react2.default.createElement(_Graphic2.default, { icon: 'PriceTagButton.svg', slide: '5', itemNumber: '2', iconLocation: ['65vw', .35], initHouseSize: this.state.houseSize, relWidth: '5vw', currentSlide: this.state.currentSlide }),
         _react2.default.createElement(_Graphic2.default, { icon: 'FamilyLandIcon.svg', slide: '6', itemNumber: '1', iconLocation: ['53vw', -.23], initHouseSize: this.state.houseSize, relWidth: '17vw', currentSlide: this.state.currentSlide }),
         _react2.default.createElement(_Graphic2.default, { icon: 'CommunityPeopleIcon.svg', slide: '7', itemNumber: '6', iconLocation: ['81vw', 0], initHouseSize: this.state.houseSize, relWidth: '10vw', currentSlide: this.state.currentSlide }),
-        _react2.default.createElement(_Graphic2.default, { icon: 'peopleIcon.png', slide: '7', itemNumber: '7', iconLocation: ['27vw', 0], initHouseSize: this.state.houseSize, relWidth: '4vw', currentSlide: this.state.currentSlide }),
+        _react2.default.createElement(_Graphic2.default, { icon: 'ManWomanIcon.svg', slide: '7', itemNumber: '7', iconLocation: ['27vw', 0], initHouseSize: this.state.houseSize, relWidth: '4vw', currentSlide: this.state.currentSlide }),
         _react2.default.createElement(_RollOver2.default, { icon: 'AffordabilityButton.svg', slide: '7', itemNumber: '1', iconLocation: ['35vw', .5], textPosition: 'left', currentSlide: this.state.currentSlide, text: this.state.rolloverText }),
         _react2.default.createElement(_RollOver2.default, { icon: 'SupportButton.svg', slide: '7', itemNumber: '4', iconLocation: ['17vw', .1], textPosition: 'top-left', currentSlide: this.state.currentSlide, text: this.state.rolloverText }),
         _react2.default.createElement(_RollOver2.default, { icon: 'CommunityButton.svg', slide: '7', itemNumber: '5', iconLocation: ['82vw', .2], textPosition: 'top-left', currentSlide: this.state.currentSlide, text: this.state.rolloverText }),
-        _react2.default.createElement(_RollOver2.default, { icon: 'StabilityButton.svg', slide: '7', itemNumber: '3', iconLocation: ['55vw', .7], textPosition: 'left', currentSlide: this.state.currentSlide, text: this.state.rolloverText }),
+        _react2.default.createElement(_RollOver2.default, { icon: 'StabilityButton.svg', slide: '7', itemNumber: '3', iconLocation: ['55vw', .7], textPosition: 'bottom', currentSlide: this.state.currentSlide, text: this.state.rolloverText }),
         _react2.default.createElement(_RollOver2.default, { icon: 'EquityButton.svg', slide: '7', itemNumber: '2', iconLocation: ['65vw', .8], textPosition: 'right', currentSlide: this.state.currentSlide, text: this.state.rolloverText }),
         _react2.default.createElement(_RollOver2.default, { icon: 'AffordabilityButton.svg', slide: '8', itemNumber: '1', iconLocation: ['23.5vw', .2], textPosition: 'top-left', currentSlide: this.state.currentSlide, text: this.state.rolloverText }),
         _react2.default.createElement(_Graphic2.default, { icon: 'SellerBuyerFamilyIcon.svg', slide: '8', itemNumber: '2', iconLocation: ['21vw', 0], initHouseSize: this.state.houseSize, relWidth: '13vw', currentSlide: this.state.currentSlide }),
         _react2.default.createElement(_RollOver2.default, { icon: 'SharedEquityButton.svg', slide: '9', itemNumber: '1', iconLocation: ['23.5vw', .25], textPosition: 'top-left', currentSlide: this.state.currentSlide, text: this.state.rolloverText }),
-        _react2.default.createElement(_Graphic2.default, { icon: 'peopleIcon.png', slide: '9', itemNumber: '2', iconLocation: ['24vw', 0], initHouseSize: this.state.houseSize, relWidth: '4vw', currentSlide: this.state.currentSlide }),
-        _react2.default.createElement(_Graphic2.default, { icon: 'peopleIcon.png', slide: '10', itemNumber: '1', iconLocation: ['24vw', 0], initHouseSize: this.state.houseSize, relWidth: '4vw', currentSlide: this.state.currentSlide }),
-        _react2.default.createElement(_Graphic2.default, { icon: 'peopleIcon.png', slide: '11', itemNumber: '1', iconLocation: ['24vw', 0], initHouseSize: this.state.houseSize, relWidth: '4vw', currentSlide: this.state.currentSlide }),
-        _react2.default.createElement(_Graphic2.default, { icon: 'peopleIcon.png', slide: '12', itemNumber: '1', iconLocation: ['24vw', 0], initHouseSize: this.state.houseSize, relWidth: '4vw', currentSlide: this.state.currentSlide }),
-        _react2.default.createElement(_RollOver2.default, { icon: 'SharedEquityIconBW.svg', slide: '12', itemNumber: '2', iconLocation: ['20.5vw', .2], textPosition: 'top-left', currentSlide: this.state.currentSlide, text: this.state.rolloverText }),
-        _react2.default.createElement(_RollOver2.default, { icon: 'PriceTagIconBW.svg', slide: '12', itemNumber: '3', iconLocation: ['65vw', .8], textPosition: 'top-right', currentSlide: this.state.currentSlide, text: this.state.rolloverText }),
-        _react2.default.createElement(_RollOver2.default, { icon: 'LandOutline.svg', slide: '12', itemNumber: '4', iconLocation: ['55vw', 0], textPosition: 'top', currentSlide: this.state.currentSlide, text: this.state.rolloverText }),
-        _react2.default.createElement(_Graphic2.default, { icon: 'peopleIcon.png', slide: '13', itemNumber: '1', iconLocation: ['24vw', 0], initHouseSize: this.state.houseSize, relWidth: '4vw', currentSlide: this.state.currentSlide }),
-        _react2.default.createElement(_Graphic2.default, { icon: 'peopleIcon.png', slide: '14', itemNumber: '1', iconLocation: ['24vw', 0], initHouseSize: this.state.houseSize, relWidth: '4vw', currentSlide: this.state.currentSlide }),
-        _react2.default.createElement(_RollOver2.default, { icon: 'SharedEquityIconBW.svg', slide: '14', itemNumber: '2', iconLocation: ['20.5vw', .2], textPosition: 'top-left', currentSlide: this.state.currentSlide, text: this.state.rolloverText }),
-        _react2.default.createElement(_RollOver2.default, { icon: 'PriceTagIconBW.svg', slide: '14', itemNumber: '3', iconLocation: ['65vw', .8], textPosition: 'top-right', currentSlide: this.state.currentSlide, text: this.state.rolloverText }),
-        _react2.default.createElement(_RollOver2.default, { icon: 'LandOutline.svg', slide: '14', itemNumber: '4', iconLocation: ['55vw', 0], textPosition: 'top', currentSlide: this.state.currentSlide, text: this.state.rolloverText }),
-        _react2.default.createElement(_Graphic2.default, { icon: 'peopleIcon.png', slide: '15', itemNumber: '1', iconLocation: ['24vw', 0], initHouseSize: this.state.houseSize, relWidth: '4vw', currentSlide: this.state.currentSlide }),
-        _react2.default.createElement(_Graphic2.default, { icon: 'peopleIcon.png', slide: '16', itemNumber: '1', iconLocation: ['24vw', 0], initHouseSize: this.state.houseSize, relWidth: '4vw', currentSlide: this.state.currentSlide }),
-        _react2.default.createElement(_RollOver2.default, { icon: 'CommunityIconBW.svg', slide: '16', itemNumber: '2', iconLocation: ['20.5vw', .2], textPosition: 'top-left', currentSlide: this.state.currentSlide, text: this.state.rolloverText }),
-        _react2.default.createElement(_Graphic2.default, { icon: 'peopleIcon.png', slide: '17', itemNumber: '1', iconLocation: ['24vw', 0], initHouseSize: this.state.houseSize, relWidth: '4vw', currentSlide: this.state.currentSlide })
+        _react2.default.createElement(_Graphic2.default, { icon: 'ManWomanIcon.svg', slide: '9', itemNumber: '2', iconLocation: ['24vw', 0], initHouseSize: this.state.houseSize, relWidth: '4vw', currentSlide: this.state.currentSlide }),
+        _react2.default.createElement(_Graphic2.default, { icon: 'ManWomanIcon.svg', slide: '10', itemNumber: '1', iconLocation: ['24vw', 0], initHouseSize: this.state.houseSize, relWidth: '4vw', currentSlide: this.state.currentSlide }),
+        _react2.default.createElement(_Graphic2.default, { icon: 'ManWomanIcon.svg', slide: '11', itemNumber: '1', iconLocation: ['24vw', 0], initHouseSize: this.state.houseSize, relWidth: '4vw', currentSlide: this.state.currentSlide }),
+        _react2.default.createElement(_Graphic2.default, { icon: 'ManWomanIcon.svg', slide: '12', itemNumber: '1', iconLocation: ['24vw', 0], initHouseSize: this.state.houseSize, relWidth: '4vw', currentSlide: this.state.currentSlide }),
+        _react2.default.createElement(_Graphic2.default, { icon: 'SharedEquityIconBW.svg', slide: '12', itemNumber: '2', iconLocation: ['20.5vw', .2], initHouseSize: this.state.houseSize, relWidth: '4vw', currentSlide: this.state.currentSlide }),
+        _react2.default.createElement(_Graphic2.default, { icon: 'PriceTagIconBW.svg', slide: '12', itemNumber: '3', iconLocation: ['65vw', .8], initHouseSize: this.state.houseSize, relWidth: '4vw', currentSlide: this.state.currentSlide }),
+        _react2.default.createElement(_Graphic2.default, { icon: 'LandOutline.svg', slide: '12', itemNumber: '4', iconLocation: ['18vw', -.2], initHouseSize: this.state.houseSize, relWidth: '65vw', currentSlide: this.state.currentSlide }),
+        _react2.default.createElement(_Graphic2.default, { icon: 'ManWomanIcon.svg', slide: '13', itemNumber: '1', iconLocation: ['24vw', 0], initHouseSize: this.state.houseSize, relWidth: '4vw', currentSlide: this.state.currentSlide }),
+        _react2.default.createElement(_Graphic2.default, { icon: 'ManWomanIcon.svg', slide: '14', itemNumber: '1', iconLocation: ['24vw', 0], initHouseSize: this.state.houseSize, relWidth: '4vw', currentSlide: this.state.currentSlide }),
+        _react2.default.createElement(_Graphic2.default, { icon: 'SharedEquityIconBW.svg', slide: '14', itemNumber: '2', iconLocation: ['20.5vw', .2], initHouseSize: this.state.houseSize, relWidth: '4vw', currentSlide: this.state.currentSlide }),
+        _react2.default.createElement(_Graphic2.default, { icon: 'PriceTagIconBW.svg', slide: '14', itemNumber: '3', iconLocation: ['65vw', .8], initHouseSize: this.state.houseSize, relWidth: '4vw', currentSlide: this.state.currentSlide }),
+        _react2.default.createElement(_Graphic2.default, { icon: 'LandOutline.svg', slide: '14', itemNumber: '4', iconLocation: ['18vw', -.2], initHouseSize: this.state.houseSize, relWidth: '65vw', currentSlide: this.state.currentSlide }),
+        _react2.default.createElement(_Graphic2.default, { icon: 'ManWomanIcon.svg', slide: '15', itemNumber: '1', iconLocation: ['24vw', 0], initHouseSize: this.state.houseSize, relWidth: '4vw', currentSlide: this.state.currentSlide }),
+        _react2.default.createElement(_Graphic2.default, { icon: 'ManWomanIcon.svg', slide: '16', itemNumber: '1', iconLocation: ['24vw', 0], initHouseSize: this.state.houseSize, relWidth: '4vw', currentSlide: this.state.currentSlide }),
+        _react2.default.createElement(_Graphic2.default, { icon: 'CommunityIconBW.svg', slide: '16', itemNumber: '2', iconLocation: ['20.5vw', .2], initHouseSize: this.state.houseSize, relWidth: '4vw', currentSlide: this.state.currentSlide }),
+        _react2.default.createElement(_Graphic2.default, { icon: 'ManWomanIcon.svg', slide: '17', itemNumber: '1', iconLocation: ['24vw', 0], initHouseSize: this.state.houseSize, relWidth: '4vw', currentSlide: this.state.currentSlide })
       );
     }
   }]);
@@ -20024,6 +20024,20 @@ var RollOver = function (_React$Component) {
   }
 
   _createClass(RollOver, [{
+    key: 'getVertOffset',
+    value: function getVertOffset(rolloverId) {
+      var rects = undefined;
+      if (document.getElementById("rolloverText_" + rolloverId)) {
+        rects = document.getElementById("rolloverText_" + rolloverId).getClientRects();
+      }
+      var vertOffset = 0;
+      if (rects != undefined && rects[0] != undefined && rects[0].top < 0) {
+        vertOffset = rects[0].top;
+      }
+
+      return vertOffset;
+    }
+  }, {
     key: 'relativeTextPosition',
     value: function relativeTextPosition() {
       var textStyle = {
@@ -20057,6 +20071,10 @@ var RollOver = function (_React$Component) {
           textStyle.bottom = this.verticalPosition(-.5);
           textStyle.right = '-30vw';
           return textStyle;
+        case 'bottom':
+          textStyle.bottom = this.verticalPosition(-.8);
+          textStyle.right = '-15vw';
+          return textStyle;
         default:
           textStyle.bottom = this.verticalPosition(0);
           textStyle.right = '-10vw';
@@ -20077,6 +20095,15 @@ var RollOver = function (_React$Component) {
     value: function mouseOver(rolloverId) {
       $("#rolloverText_" + rolloverId).finish();
       $("#rolloverText_" + rolloverId).fadeIn(500);
+      var currentBottom = $("#rolloverText_" + rolloverId).css('bottom').replace('px', '');
+      var vertOffset = this.getVertOffset(rolloverId);
+      if (vertOffset != 0) {
+
+        var updateOffset = Number(currentBottom) + vertOffset;
+        $("#rolloverText_" + rolloverId).animate({
+          bottom: updateOffset
+        }, 500);
+      }
     }
   }, {
     key: 'mouseOut',

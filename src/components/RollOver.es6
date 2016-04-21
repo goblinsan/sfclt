@@ -4,6 +4,19 @@ import RolloverText from './RolloverText.es6';
 
 class RollOver extends React.Component {
 
+  getVertOffset(rolloverId){
+    let rects;
+    if (document.getElementById("rolloverText_"+ rolloverId)){
+      rects = document.getElementById("rolloverText_"+ rolloverId).getClientRects();
+    }
+    var vertOffset = 0;
+    if (rects != undefined && rects[0]!= undefined && rects[0].top < 0){
+      vertOffset = rects[0].top;
+    }
+
+    return vertOffset;
+  }
+
   relativeTextPosition(){
     var textStyle = {
         position: 'absolute',
@@ -36,6 +49,10 @@ class RollOver extends React.Component {
         textStyle.bottom = this.verticalPosition(-.5);
         textStyle.right = '-30vw';
         return textStyle;
+      case 'bottom':
+        textStyle.bottom = this.verticalPosition(-.8);
+        textStyle.right = '-15vw';
+        return textStyle;
       default:
         textStyle.bottom = this.verticalPosition(0);
         textStyle.right = '-10vw';
@@ -54,6 +71,15 @@ class RollOver extends React.Component {
   mouseOver(rolloverId){
     $("#rolloverText_"+ rolloverId).finish();
     $("#rolloverText_"+ rolloverId).fadeIn(500);
+    var currentBottom = $("#rolloverText_"+ rolloverId).css('bottom').replace('px', '');
+    var vertOffset = this.getVertOffset(rolloverId);
+    if (vertOffset != 0) {
+
+      let updateOffset = Number(currentBottom) + vertOffset;
+      $("#rolloverText_"+ rolloverId).animate({
+        bottom: updateOffset
+      }, 500);
+    }
   }
 
   mouseOut(rolloverId){
