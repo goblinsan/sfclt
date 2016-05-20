@@ -1,0 +1,175 @@
+body{
+  margin: 0;
+  background-color: #b3e3f9;
+  font-size: 18px;
+}
+h1,h2,h3,h4,h5,h6,p {
+ line-height: 1.45;
+}
+h1 { font-size: 4em; }
+h2 { font-size: 3em; }
+h3 { font-size: 2em; }
+#appWrapper{
+  width: 100vw;
+  overflow: hidden;
+}
+#sky{
+  position: relative;
+  min-height: 60vh;
+}
+#house{
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-52%, 0);
+  width: 80vw;
+}
+#grassRowLeft{
+  position: absolute;
+  bottom: -1px;
+  width: 80vw;
+}
+#grassRowRight{
+  position: absolute;
+  bottom: -1px;
+  right: 0;
+  width: 80vw;
+}
+/*#houseBottom{
+  position: fixed;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 80vw;
+}*/
+#grass{
+  background-color: #a7ce3b;
+  min-height: 60vh;
+}
+#bottomSlidesWrapper{
+  position: fixed;
+  top: 90vh;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
+#clouds{
+  position: absolute;
+  top: 0;
+  min-height: 100%
+}
+#sun{
+  width: 10%;
+  position: absolute;
+  left: 80vw;
+  top: 10vh;
+}
+.cloud {
+  position: absolute;
+}
+.x1 {
+  left:80vw;
+  top:20vh;
+  animation: floating 2000s linear infinite;
+}
+.x1 img{ width: 10vw; opacity: 0.98;}
+.x2 {
+  left:85vw;
+  top:17vh;
+  animation: floating 1800s linear infinite;
+}
+.x2 img{ width: 9vw; opacity: 0.7;}
+.x3 {
+  left:75vw;
+  top:18vh;
+  animation: floating 1500s linear infinite;
+}
+.x3 img{ width: 9vw; opacity: 0.7;}
+
+.x4 {
+  left:40vw;
+  top:8vh;
+  animation: floating 1990s linear infinite;
+}
+.x4 img{ width: 33vw; opacity: 0.9;}
+.x5 {
+  left:30vw;
+  top:8vh;
+  animation: floating 1500s linear infinite;
+}
+.x5 img{ width: 30vw; opacity: 0.8;}
+.x6 {
+  left:53vw;
+  top:7vh;
+  animation: floating 1700s linear infinite;
+}
+.x6 img{ width: 20vw; opacity: 0.9;}
+.x7 {
+  left:10vw;
+  top:30vh;
+  animation: floating 1200s linear infinite;
+}
+.x7 img{ width: 10vw; opacity: 0.9;}
+.x8 {
+  left:8vw;
+  top:27vh;
+  animation: floating 1100s linear infinite;
+}
+.x8 img{ width: 9vw; opacity: 0.7;}
+.x9 {
+  left:15vw;
+  top:27vh;
+  animation: floating 1250s linear infinite;
+}
+.x9 img{ width: 9vw; opacity: 0.7;}
+.x10 {
+  left:130vw;
+  top:20vh;
+  animation: floatingOffScreen 1400s linear infinite;
+}
+.x10 img{ width: 10vw; opacity: 0.9;}
+.x11 {
+  left:105vw;
+  top:15vh;
+  animation: floatingOffScreen 1420s linear infinite;
+}
+.x11 img{ width: 9vw; opacity: 0.7;}
+.x12 {
+  left:115vw;
+  top:10vh;
+  animation: floatingOffScreen 1780s linear infinite;
+}
+.x12 img{ width: 8vw; opacity: 0.7;}
+.x13 {
+  left:170vw;
+  top:6vh;
+  animation: floatingOffScreen 1800s linear infinite;
+}
+.x13 img{ width: 7vw; opacity: 0.7;}
+.x14 {
+  left:150vw;
+  top:10vh;
+  animation: floatingOffScreen 1450s linear infinite;
+}
+.x14 img{ width: 8vw; opacity: 0.7;}
+.x15 {
+  left:190vw;
+  top:8.5vh;
+  animation: floatingOffScreen 1650s linear infinite;
+}
+.x15 img{ width: 15vw; opacity: 0.8;}
+.x16 {
+  left:180vw;
+  top:7.5vh;
+  animation: floatingOffScreen 1700s linear infinite;
+}
+.x16 img{ width: 20vw; opacity: 0.9;}
+
+@keyframes floating{
+  50.999%{transform: translateX(-100vw);}
+  51%{transform: translateX(100vw);}
+}
+
+@keyframes floatingOffScreen{
+  50.999%{transform: translateX(-200vw);}
+  51%{transform: translateX(0vw);}
+}
